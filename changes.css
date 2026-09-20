@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: black;
+	color: white;
+	background-image: url('bg.png');
+	font-family: Arial, sans-serif;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+div.contentContainer {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+div.titleHeader {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+span.titleGame {
+	display: block;
+	font-size: 26pt;
+	font-weight: 800;
+}
+
+span.titleSub {
+	display: block;
+	font-size: 22pt;
+	font-weight: 600;
+}
+	
+
+div.changeHeader {
+	display: flex;
+	background-color: #1E1E3E66;
+	height: 48px;
+	width: 60%;
+	justify-content: center;
+	border-radius: 5px 5px;
+	border: thin solid grey;
+	z-index: 99;
+}
+
+div.changeVersions {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	width: 100%;
+	font-weight: 700;
+	font-size: 16pt;
+}
+
+span.changeLabel {
+	display: flex;
+	height: 99%;
+	align-items: center;
+	justify-content: left;
+	width: 50%;
+	padding-left: 10px;
+}
+
+span.changeVersion {
+	display: flex;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+	height: 100%;
+	width: 128px;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	background-image: linear-gradient(to top, transparent 50%, #436ce3 50%);
+	background-size: 100% 200%;
+	background-position: bottom;
+	transition: all 0.2s ease;
+	border-bottom: 2px solid transparent;
+	background-clip: padding-box;
+}
+
+span.changeVersion:hover {
+	background-position: top;
+	border-bottom: 2px solid grey;
+}
+
+span.changeSelected {
+	border-bottom: 2px solid white;
+	background-position: top;
+}
+
+div.dateHeader {
+	margin-top: 10px;
+}
+
+div.changeDates {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	height: 100%;
+	width: 100%;
+	font-weight: 700;
+	font-size: 14pt;
+}
+
+span.changeDate {
+	display: flex;
+	width: 100%;
+}
+
+select.changeDate {
+	background-color: #436ce3;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	width: 99%;
+	font-size: 12pt;
+	text-align: center;
+}
+
+option.dateOption {
+	background-color: navy;
+}
+
+option.dateOption:nth-child(even) {
+  background-color: #2139b1;
+}
+
+
+option.dateSelected {
+	background-color: #436ce3;
+}
+
+div.changeContent {
+	display: flex;
+	margin-top: 10px;
+	flex-basis: 65%;
+	overflow: auto;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-top: 5px;
+}
+
+div.changeDetailsHeader {
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 700;
+	font-size: 16pt;
+}
+
+span.changeDetails {
+	font-size: 12pt;
+	font-weight: normal;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+div.changeFooter {
+	margin-top: 40px;
+}
+
+a.footerLink {
+	text-decoration: underline;
+	color: #436ce3;
+}
+

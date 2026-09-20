@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Eternia: Chronicles of Meranthe - Update Tracker
+		</title>
+		
+		<link href="changes.css" rel="stylesheet">
+		<script src="changes.js" type="text/javascript"></script>
+	</head>
+	
+	<body onload="LoadChanges()">
+		<div class="contentContainer">
+			<div class="titleHeader">
+				<span class="titleGame">
+					Chronicles of Meranthe
+				</span>
+				<span class="titleSub">
+					Update Tracker
+				</span>
+			</div>
+			<div class="changeHeader versionHeader">
+				<div class="changeVersions" id="changeVersions">
+					<span class="changeLabel">
+						Version:
+					</span>
+				</div>
+			</div>
+			<div class="changeHeader dateHeader">
+				<div class="changeDates" id="changeDates">
+					<span class="changeLabel">
+						Date:
+					</span>
+					<span class="changeDate">
+						<select name="changeDate" id="changeDate" class="changeDate" onchange="DateChanged()">
+						</select>
+					</span>
+				</div>
+			</div>
+			<div class="changeHeader changeContent" id="changeContent">
+			</div>
+			<div class="changeFooter">
+				Tracker by <a class="footerLink" href="https://ko-fi.com/nadrew" target="_blank">Nadrew</a>
+			</div>
+		</div>
+	</body>
