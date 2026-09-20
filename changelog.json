@@ -3241,47 +3241,61 @@
 	"2.09": {
 		"July 27th 2024": {
 			"Addition": [
+				"Undead now gain the 'Undying' passive when upgraded to their zombie form, instead of 'Sturdy'. This grants them 25 vitality & 10 power, with the downside of being unable to digest food.", 
 				"Undead now gain the 'Undying' passive when upgraded to their zombie form, instead of 'Sturdy'. This grants them 25 vitality & 10 power, with the downside of being unable to digest food."
 			], 
 			"Fix": [
+				"You couldn't knock on or break into buildings that weren't on Z-Level 1, such as apartments.", 
 				"You couldn't knock on or break into buildings that weren't on Z-Level 1, such as apartments."
 			]
 		}, 
 		"July 25th 2024": {
 			"Change": [
 				"Prettifies the Commend HTML somewhat, and also moves it from the OOC to IC tab for visibility.", 
+				"Watchtowers can now be built within settlements (and outside).", 
+				"Prettifies the Commend HTML somewhat, and also moves it from the OOC to IC tab for visibility.", 
 				"Watchtowers can now be built within settlements (and outside)."
 			], 
 			"Fix": [
+				"Artificer's Refurbish recipe wasn't applying the proper stats on an upgraded roll.", 
 				"Artificer's Refurbish recipe wasn't applying the proper stats on an upgraded roll."
 			]
 		}, 
 		"July 21st 2024": {
 			"Addition": [
+				"Shift+Click on an inventory item now drops the item beneath you. Shift+Drag an inventory item now drops the item instead of throwing it.", 
 				"Shift+Click on an inventory item now drops the item beneath you. Shift+Drag an inventory item now drops the item instead of throwing it."
 			], 
 			"Fix": [
+				"Grabbing a character during a monster den could remove them from it.", 
 				"Grabbing a character during a monster den could remove them from it."
 			]
 		}, 
 		"July 19th 2024": {
 			"Fix": [
+				"Some quests could be completed without fulfilling their objectives.", 
 				"Some quests could be completed without fulfilling their objectives."
 			], 
 			"Spell - Water": [
 				"Ocean's Fury now grants 20 power rather than 10% AP.", 
+				"Flood's heal reduced from 2.5x level to 1.5x.", 
+				"Ocean's Fury now grants 20 power rather than 10% AP.", 
 				"Flood's heal reduced from 2.5x level to 1.5x."
 			], 
 			"Spell - Wellspring": [
+				"Wellspring Aegis passive heal changed from every 3 seconds to 5.", 
 				"Wellspring Aegis passive heal changed from every 3 seconds to 5."
 			], 
 			"Spell - Nature": [
+				"Ingrain cooldown increased from 35s to 40s.", 
 				"Ingrain cooldown increased from 35s to 40s."
 			], 
 			"Spell - Unarmed": [
+				"Physical Attunement now contributes to Intermediates (requires 40 spent rather than 30).", 
 				"Physical Attunement now contributes to Intermediates (requires 40 spent rather than 30)."
 			], 
 			"Spell - Armed": [
+				"Physical Attunement now contributes to Intermediates (requires 40 spent rather than 30).", 
 				"Physical Attunement now contributes to Intermediates (requires 40 spent rather than 30)."
 			]
 		}, 
@@ -3289,9 +3303,13 @@
 			"Addition": [
 				"Height has been added! The height of others will display relative to your own. Set your height via the /height command, will be added to character creation soon.", 
 				"Alchemy - Shrink potion.", 
+				"Click teleports now have an onscreen cooldown display.", 
+				"Height has been added! The height of others will display relative to your own. Set your height via the /height command, will be added to character creation soon.", 
+				"Alchemy - Shrink potion.", 
 				"Click teleports now have an onscreen cooldown display."
 			], 
 			"Spell - Explosion": [
+				"Pyroclasm now has an underlay for visual clarity.", 
 				"Pyroclasm now has an underlay for visual clarity."
 			]
 		}, 
@@ -3308,14 +3326,28 @@
 				"Fire Skurn now receives Blazing Spin and Elemental Fury.", 
 				"Tyrann now receives Wild Nature in addition to Ultrasmash.", 
 				"Ogre now receives Melee Mastery in addition to Ultrasmash.", 
+				"Monster Passive lowered from 80 Power & 50 Vitality to 70 Power & 40 Vitality.", 
+				"Air Skurn now receives Vacuum Vortex and Elemental Fury.", 
+				"Earth Skurn now receives Supreme Earth Slide and Elemental Fury.", 
+				"Fire Skurn now receives Blazing Spin and Elemental Fury.", 
+				"Tyrann now receives Wild Nature in addition to Ultrasmash.", 
+				"Ogre now receives Melee Mastery in addition to Ultrasmash.", 
+				"Monster Passive lowered from 80 Power & 50 Vitality to 70 Power & 40 Vitality.", 
+				"Air Skurn now receives Vacuum Vortex and Elemental Fury.", 
+				"Earth Skurn now receives Supreme Earth Slide and Elemental Fury.", 
+				"Fire Skurn now receives Blazing Spin and Elemental Fury.", 
+				"Tyrann now receives Wild Nature in addition to Ultrasmash.", 
+				"Ogre now receives Melee Mastery in addition to Ultrasmash.", 
 				"Monster Passive lowered from 80 Power & 50 Vitality to 70 Power & 40 Vitality."
 			]
 		}, 
 		"July 13th 2024": {
 			"Spell": [
+				"Commend is now a spell rather than a slash command, and its cooldown has been reduced from 7 days to 3. Updates the tooltip. Simplifies the two inputs to just 'reason' rather than two prompts. Adds a Discord webhook tracking for Staff use.", 
 				"Commend is now a spell rather than a slash command, and its cooldown has been reduced from 7 days to 3. Updates the tooltip. Simplifies the two inputs to just 'reason' rather than two prompts. Adds a Discord webhook tracking for Staff use."
 			], 
 			"Quest": [
+				"Renames the Tutorial NPC to Guide. Adds Appreciator as a Weekly Public Quest to this NPC: +1500 Coin, +300 EXP", 
 				"Renames the Tutorial NPC to Guide. Adds Appreciator as a Weekly Public Quest to this NPC: +1500 Coin, +300 EXP"
 			]
 		}, 
@@ -3323,15 +3355,25 @@
 			"Skill - Faith": [
 				"Drakanite faith now allows buying Blessed Flames.", 
 				"Melodian faith now allows buying wolf summons.", 
+				"Festivals will no longer refund on amnesia.", 
+				"Drakanite faith now allows buying Blessed Flames.", 
+				"Melodian faith now allows buying wolf summons.", 
 				"Festivals will no longer refund on amnesia."
 			], 
 			"Skill - Alchemy": [
+				"Updated sprite on White Oil.", 
 				"Updated sprite on White Oil."
 			], 
 			"Skill - Necromancy": [
+				"Nyctorre has a custom sprite and is more explicit about its' nature. Gained 2 holy def.", 
 				"Nyctorre has a custom sprite and is more explicit about its' nature. Gained 2 holy def."
 			], 
 			"Spell - Aether": [
+				"Pylae Nephilim have a new racial; On proc, spawn a 500 damage shield barrier for 20s.", 
+				"Ualdir Nephilim added; Passive, constant +5% crit damage.", 
+				"True Counter now has an additional visual.", 
+				"Pylae Nephilim have a new racial; On proc, spawn a 500 damage shield barrier for 20s.", 
+				"Ualdir Nephilim added; Passive, constant +5% crit damage.", 
 				"Pylae Nephilim have a new racial; On proc, spawn a 500 damage shield barrier for 20s.", 
 				"Ualdir Nephilim added; Passive, constant +5% crit damage.", 
 				"True Counter now has an additional visual.", 
@@ -3344,33 +3386,53 @@
 				"Sand Aura was not applying spell dodge on AOE tiles. Added icon. Power increased from 25 to 30. Now applies dash speed up.", 
 				"Quicksand range expanded by 4 tiles, duration extended by 2 seconds.", 
 				"Sand Avalanche changed to a mastery, inflicts mud, leaves sand tiles.", 
+				"Elemental Fury removed from Sand.", 
+				"Golden Bolt cooldown increased from 6 to 10. Blinds on hit.", 
+				"Barrier of Sand now drops a small AOE of sand tiles, projectiles blind on hit.", 
+				"Sand Aura was not applying spell dodge on AOE tiles. Added icon. Power increased from 25 to 30. Now applies dash speed up.", 
+				"Quicksand range expanded by 4 tiles, duration extended by 2 seconds.", 
+				"Sand Avalanche changed to a mastery, inflicts mud, leaves sand tiles.", 
 				"Elemental Fury removed from Sand."
 			], 
 			"Spell - Spirit": [
+				"Link Transposition made GCDE. Lowered damage from 6 to 5.", 
 				"Link Transposition made GCDE. Lowered damage from 6 to 5."
 			], 
 			"Spell - Mist": [
 				"Scald increased to 40 Mist Pow for duration.", 
+				"Mistborne no longer increases Water Pow. Mistborne now cleanses.", 
+				"Scald increased to 40 Mist Pow for duration.", 
 				"Mistborne no longer increases Water Pow. Mistborne now cleanses."
 			], 
 			"Spell - Blood": [
+				"Blood Whip no longer GCDE. Reduced CD from 15 to 13. Applies Rot. Adds bleed severity and duration.", 
 				"Blood Whip no longer GCDE. Reduced CD from 15 to 13. Applies Rot. Adds bleed severity and duration."
 			], 
 			"Spell - Nature": [
+				"Vine Whip cooldown increased from 18 to 24.", 
 				"Vine Whip cooldown increased from 18 to 24."
 			], 
 			"Spell - Sound": [
+				"Boom Burst damage reduced from 17 to 11. Boom Burst now Confuses heavily and applies knockback.", 
 				"Boom Burst damage reduced from 17 to 11. Boom Burst now Confuses heavily and applies knockback."
 			], 
 			"Spell - Fire": [
+				"Cauterize CD reduced from 50 to 45 seconds. Duration reduced from 5 seconds to 3.5.", 
 				"Cauterize CD reduced from 50 to 45 seconds. Duration reduced from 5 seconds to 3.5."
 			], 
 			"Spell - Magma": [
 				"Magma Wave cooldown decreased from 26 to 24.", 
 				"Lava Pool initial hit damage increased from 10 to 12.", 
+				"Volcanic Eruption range decreased from 11 to 10.", 
+				"Magma Wave cooldown decreased from 26 to 24.", 
+				"Lava Pool initial hit damage increased from 10 to 12.", 
 				"Volcanic Eruption range decreased from 11 to 10."
 			], 
 			"Spell - Explosion": [
+				"Cinderflare spell damage increased from 11 to 12.", 
+				"Bang spell damage decreased from 6 to 5.", 
+				"Pyroclasm spell damage lowered from 7.5 to 6.", 
+				"Explosive Minefield radius lowered by 1.", 
 				"Cinderflare spell damage increased from 11 to 12.", 
 				"Bang spell damage decreased from 6 to 5.", 
 				"Pyroclasm spell damage lowered from 7.5 to 6.", 
@@ -3381,44 +3443,57 @@
 	"2.08": {
 		"June 22nd 2024": {
 			"Spell - Physical": [
+				"Muscle Armor's special now has an on-screen cooldown icon.", 
 				"Muscle Armor's special now has an on-screen cooldown icon."
 			], 
 			"Spell - Absorption": [
 				"Flux cooldown increased from 30s to 36s.", 
+				"Null Ray's silence decreased from 2.6s to 2s.", 
+				"Flux cooldown increased from 30s to 36s.", 
 				"Null Ray's silence decreased from 2.6s to 2s."
 			], 
 			"Spell - Signature": [
+				"Flashsword +physical increased from 10 to 20.", 
 				"Flashsword +physical increased from 10 to 20."
 			], 
 			"Spell - Shadow": [
+				"Eviscerate range increased from 7 to 9.", 
 				"Eviscerate range increased from 7 to 9."
 			], 
 			"Change": [
+				"Improves the on-screen cooldown icon.", 
 				"Improves the on-screen cooldown icon."
 			]
 		}, 
 		"June 20th 2024": {
 			"Spell - Signature": [
 				"Harmonic Attunement: +50 POW + 350 3sec Heal -> +40 POW + 1/pow 3sec Heal + 10% Healing + Half power Mend on Q.", 
+				"Azure Flames aura visual wasn't applying.", 
+				"Harmonic Attunement: +50 POW + 350 3sec Heal -> +40 POW + 1/pow 3sec Heal + 10% Healing + Half power Mend on Q.", 
 				"Azure Flames aura visual wasn't applying."
 			], 
 			"Fix": [
+				"'Hornless' Cambion sprite issue.", 
 				"'Hornless' Cambion sprite issue."
 			]
 		}, 
 		"June 17th 2024": {
 			"Change": [
+				"Makes lodestone/mining level bonus resources not count against the node's total count.", 
 				"Makes lodestone/mining level bonus resources not count against the node's total count."
 			], 
 			"Spell - Nature": [
+				"Rolling Vines now applies the standard Poison status effect; was applying an outated one.", 
 				"Rolling Vines now applies the standard Poison status effect; was applying an outated one."
 			]
 		}, 
 		"June 16th 2024": {
 			"Spell - Explosion": [
+				"Pyroclasm's stun duration lowered from 3s to 1.5s.", 
 				"Pyroclasm's stun duration lowered from 3s to 1.5s."
 			], 
 			"Spell - Nature": [
+				"Vine Whip's stun now properly applies, also poisons.", 
 				"Vine Whip's stun now properly applies, also poisons."
 			]
 		}, 
@@ -3426,9 +3501,13 @@
 			"Addition": [
 				"Adds a new  spell to act as opener of Absorption, Power Siphon. A reverse homing! Restores HP back to your opponent from an autohit if you miss it; recovers MP to yourself and retains the damage otherwise.", 
 				"Automated death reporting on Discord for Staff.", 
+				"Lumin Wine. FOIC.", 
+				"Adds a new  spell to act as opener of Absorption, Power Siphon. A reverse homing! Restores HP back to your opponent from an autohit if you miss it; recovers MP to yourself and retains the damage otherwise.", 
+				"Automated death reporting on Discord for Staff.", 
 				"Lumin Wine. FOIC."
 			], 
 			"Fix": [
+				"Proselytize was checking your religion rather than theirs.", 
 				"Proselytize was checking your religion rather than theirs."
 			]
 		}
@@ -3436,82 +3515,109 @@
 	"2.07": {
 		"June 13th 2024": {
 			"Addition": [
+				"Swim potion, temporary duration of 30 minutes.", 
 				"Swim potion, temporary duration of 30 minutes."
 			], 
 			"Change": [
+				"Moves profile details over to the left to make more room for longer names, also cuts names off propely if they do exceed the character limit.", 
 				"Moves profile details over to the left to make more room for longer names, also cuts names off propely if they do exceed the character limit."
 			]
 		}, 
 		"June 9th 2024": {
 			"Spell - Water": [
+				"Flood's heal reduced from 4x level to 2.5x level.", 
 				"Flood's heal reduced from 4x level to 2.5x level."
 			], 
 			"Spell - Summoning": [
+				"Power Return is no longer GCDE.", 
 				"Power Return is no longer GCDE."
 			], 
 			"Spell - Signature": [
+				"Sanguine Mein's 5% lifestral re-added (toggle buff: +5% AP, 5% lifesteal, 150 HP 3/s).", 
 				"Sanguine Mein's 5% lifestral re-added (toggle buff: +5% AP, 5% lifesteal, 150 HP 3/s)."
 			], 
 			"Spell - Undead": [
+				"Burden heal reduced from 3 to 2.", 
 				"Burden heal reduced from 3 to 2."
 			]
 		}, 
 		"June 5th 2024": {
 			"Addition": [
 				"/jumptoggle that lets you jump repeatedly.", 
+				"/rphtml to toggle whether HTML will be shown in RP.", 
+				"/jumptoggle that lets you jump repeatedly.", 
 				"/rphtml to toggle whether HTML will be shown in RP."
 			], 
 			"Fix": [
+				"Fixed various faeborne wing alignemnts.", 
+				"Battle injury is now properly unhealable.", 
 				"Fixed various faeborne wing alignemnts.", 
 				"Battle injury is now properly unhealable."
 			]
 		}, 
 		"May 31st 2024": {
 			"Spell - Faceless": [
+				"Facesteal's temp injury now lasts a year rather than an OOC day; it was healed instantly by Self-Heal otherwise.", 
 				"Facesteal's temp injury now lasts a year rather than an OOC day; it was healed instantly by Self-Heal otherwise."
 			], 
 			"Spell - Signature": [
+				"Sanguine Overdrive now grants +40 Power rather than +10% base spellpower.", 
+				"Azure Flames bonus increased from 10 AP to 16 AP (Aura).", 
 				"Sanguine Overdrive now grants +40 Power rather than +10% base spellpower.", 
 				"Azure Flames bonus increased from 10 AP to 16 AP (Aura)."
 			]
 		}, 
 		"May 20th 2024": {
 			"Fix": [
+				"AoE initial damage could apply the debuff to the caster/allies (such as Poison's Styx).", 
 				"AoE initial damage could apply the debuff to the caster/allies (such as Poison's Styx)."
 			]
 		}, 
 		"May 18th 2024": {
 			"Addition": [
+				"A /l4rp command that overlays a 'looking for rp' sprite and makes your mini-map indicator bigger. Use again to toggle off.", 
 				"A /l4rp command that overlays a 'looking for rp' sprite and makes your mini-map indicator bigger. Use again to toggle off."
 			]
 		}, 
 		"May 16th 2024": {
 			"Spell - Earth": [
 				"Mudslide damage increased from 8 to 10.", 
+				"Greater Mudslide damage increased from 12 to 14.", 
+				"Mudslide damage increased from 8 to 10.", 
 				"Greater Mudslide damage increased from 12 to 14."
 			], 
 			"Spell - Air": [
+				"Wind Flurry damage increased from 1 to 1.2.", 
 				"Wind Flurry damage increased from 1 to 1.2."
 			], 
 			"Spell - Armed": [
+				"Precision Slash follow up damage lowered from 3 to 2.", 
+				"Whirling Dervish damage increased from 4 to 6.", 
 				"Precision Slash follow up damage lowered from 3 to 2.", 
 				"Whirling Dervish damage increased from 4 to 6."
 			], 
 			"Spell - Occult": [
 				"Occult Shield's reflect damage lowered from 50% to 40%. Also clarifies Energy Shield's tooltips on what the upgrades entail.", 
+				"Curse cooldown increased from 30s to 35s.", 
+				"Occult Shield's reflect damage lowered from 50% to 40%. Also clarifies Energy Shield's tooltips on what the upgrades entail.", 
 				"Curse cooldown increased from 30s to 35s."
 			], 
 			"Spell - Signature": [
+				"Soul Drain's duration increased from 5s to 7s.", 
 				"Soul Drain's duration increased from 5s to 7s."
 			], 
 			"Spell - Energy": [
+				"Energy Beam damage increased from 3 to 3.5.", 
 				"Energy Beam damage increased from 3 to 3.5."
 			], 
 			"Spell - Blood": [
 				"Severance Bleed increased from 3 to 5.", 
+				"Blood Whip is now GCDE.", 
+				"Severance Bleed increased from 3 to 5.", 
 				"Blood Whip is now GCDE."
 			], 
 			"Spell - Bone": [
+				"Ivory Rupture damage increased from 13 to 15.", 
 				"Ivory Rupture damage increased from 13 to 15."
 			]
 		}, 
@@ -3519,23 +3625,1078 @@
 			"Spell - Signature": [
 				"Chronos Eyes adjusted to GCDE & +20 Time Power for 10s.", 
 				"Wraithshroud adjusted:  Bid malevolent gales to enshroud you. +40 crit/20 agi, +40 Power, GCDE Q Special.", 
+				"Nullification's damage shield special increased from 40s Cooldown to 60s.", 
+				"Chronos Eyes adjusted to GCDE & +20 Time Power for 10s.", 
+				"Wraithshroud adjusted:  Bid malevolent gales to enshroud you. +40 crit/20 agi, +40 Power, GCDE Q Special.", 
 				"Nullification's damage shield special increased from 40s Cooldown to 60s."
 			]
 		}, 
 		"May 2nd 2024": {
 			"Addition": [
+				"Meteor Rum recipe added to Cooking, popularized and sold at Nera's Star Bar.", 
 				"Meteor Rum recipe added to Cooking, popularized and sold at Nera's Star Bar."
 			], 
 			"Fix": [
+				"Reverts the size increase to Nova Ray's Limit Break as it was causing damage stacking against dense objects.", 
 				"Reverts the size increase to Nova Ray's Limit Break as it was causing damage stacking against dense objects."
 			]
 		}, 
 		"May 1st 2024": {
 			"Addition": [
+				"The Mini-Map remake. This includes things like a time of day and season display, and customizable indicators! Right-click to close and open the mini-map.", 
 				"The Mini-Map remake. This includes things like a time of day and season display, and customizable indicators! Right-click to close and open the mini-map."
 			], 
 			"Spell - Worldly Healer": [
+				"Adds the precusor to the Worldly Healer class: Curia Auria. +40 Power, +200HP/3s, & a passive that allows heals to crit! (Costs 10 Spell Points & 30 Medic EXP)", 
 				"Adds the precusor to the Worldly Healer class: Curia Auria. +40 Power, +200HP/3s, & a passive that allows heals to crit! (Costs 10 Spell Points & 30 Medic EXP)"
+			]
+		}
+	}, 
+	"2.06": {
+		"April 29th 2024": {
+			"Spell - Barrier": [
+				"Reworks Barrier of Light. It now applies a Damage Shield to yourself and your party, increasing by 4x power each damage tick. Trapping mechanics remain.", 
+				"Reworks Barrier of Light. It now applies a Damage Shield to yourself and your party, increasing by 4x power each damage tick. Trapping mechanics remain."
+			], 
+			"Spell - Water": [
+				"Flood heal reduced from 5x to 3x.", 
+				"Flood heal reduced from 5x to 3x."
+			], 
+			"Spell - Metal": [
+				"Silver Javelin's movement speed is now a grade faster.", 
+				"Silver Javelin's movement speed is now a grade faster."
+			], 
+			"Spell - Absorption": [
+				"Flux damage reduced from 9 to 7.", 
+				"Flux damage reduced from 9 to 7."
+			], 
+			"Change": [
+				"Damage Shields now expire after 20 seconds.", 
+				"Damage Shields now expire after 20 seconds."
+			], 
+			"Fix": [
+				"Spirit (Ether) and Echo (Meta) weren't being destroyed at 0 HP.", 
+				"Shroom (Summoning - Nature) was using the wrong wave spell; it no longer roots.", 
+				"Spirit (Ether) and Echo (Meta) weren't being destroyed at 0 HP.", 
+				"Shroom (Summoning - Nature) was using the wrong wave spell; it no longer roots."
+			]
+		}, 
+		"April 25th 2024": {
+			"Spell - Summoning": [
+				"Link Transposition is no longer GCDE. Lingering damage lowered.", 
+				"Link Transposition is no longer GCDE. Lingering damage lowered."
+			], 
+			"Spell - Illusion": [
+				"Prison of Pain's lingering damage lowered from 1 to 0.5.", 
+				"Prison of Pain's lingering damage lowered from 1 to 0.5."
+			], 
+			"Spell - Demon": [
+				"Removes Demon Tri-Summons as a racial. Please get this refunded if you have it.", 
+				"Removes Demon Tri-Summons as a racial. Please get this refunded if you have it."
+			], 
+			"Map": [
+				"Increases the number of ore nodes in Monster Dens.", 
+				"Increases the number of ore nodes in Monster Dens."
+			]
+		}, 
+		"April 23rd 2024": {
+			"Addition": [
+				"Improves the visuals for the context menu (the UI used for farm animals, retainers, practice dummies, etc).", 
+				"Improves the visuals for the context menu (the UI used for farm animals, retainers, practice dummies, etc)."
+			], 
+			"Spell - Earth": [
+				"Stone Wall DR increased from 30% to 40%, duration from 10s to 12s.", 
+				"Stone Wall DR increased from 30% to 40%, duration from 10s to 12s."
+			], 
+			"Spell - Sand": [
+				"Sand Bomb damage increased from 12 to 15.", 
+				"Sand Bomb damage increased from 12 to 15."
+			]
+		}, 
+		"April 21st 2024": {
+			"Spell - Armed": [
+				"Hundred Cuts base damage increased from 1 to 5. Number of Bleed increased from 2 to 4.", 
+				"Precision Slash pull range decreased by 2, back to the original radius.", 
+				"Hundred Cuts base damage increased from 1 to 5. Number of Bleed increased from 2 to 4.", 
+				"Precision Slash pull range decreased by 2, back to the original radius."
+			], 
+			"Signature Spell - Pandemonium": [
+				"Removes the -5% DR; now the stats are +10% AP. Radius of speed boost while the enemy is bleeding increased from 4 to 6.", 
+				"Removes the -5% DR; now the stats are +10% AP. Radius of speed boost while the enemy is bleeding increased from 4 to 6."
+			], 
+			"Signature Spell - Summoning": [
+				"Signature Summon: Demon Wolf.", 
+				"Signature Summon: Demon Wolf."
+			]
+		}, 
+		"April 19th 2024": {
+			"Signature Spell - Magesight": [
+				"Adds 10 Power (+10 Power/20 Crit).", 
+				"Adds 10 Power (+10 Power/20 Crit)."
+			], 
+			"Spell - Aether": [
+				"Flashbeam base damage increased from 1.5x to 1.8x.", 
+				"Flashbeam base damage increased from 1.5x to 1.8x."
+			]
+		}, 
+		"April 18th 2024": {
+			"Optimization": [
+				"Retainers weren't saving individually and instead all at once, which was a likely cause of a CPU spike. This has been improved.", 
+				"Retainers weren't saving individually and instead all at once, which was a likely cause of a CPU spike. This has been improved."
+			]
+		}, 
+		"April 17th 2024": {
+			"Fix": [
+				"Melodic Repose's effect will now trigger consistently.", 
+				"Makes Blood Sacrifice, Chrono Stasis, Time Jammer, and Meteor Shower projectiles no longer leave the arena.", 
+				"Melodic Repose's effect will now trigger consistently.", 
+				"Makes Blood Sacrifice, Chrono Stasis, Time Jammer, and Meteor Shower projectiles no longer leave the arena."
+			], 
+			"Spell - Absorption": [
+				"Flux is once more an Intermediate; Inverse Charge is a Basic.", 
+				"Flux is once more an Intermediate; Inverse Charge is a Basic."
+			], 
+			"Spell - Unarmed": [
+				"Spin Throw cooldown reduced from 35s to 31s. On-hit damage increased from 12 to 14.", 
+				"Spin Throw cooldown reduced from 35s to 31s. On-hit damage increased from 12 to 14."
+			]
+		}, 
+		"April 16th 2024": {
+			"Spell - Unarmed": [
+				"Disarm moved from a Physical Intermediate to an Unarmed Basic, replacing Fist Barrage.", 
+				"Disarm moved from a Physical Intermediate to an Unarmed Basic, replacing Fist Barrage."
+			], 
+			"Spell - Armed": [
+				"Precision Slash cooldown increased from 30s to 35s.", 
+				"Precision Slash cooldown increased from 30s to 35s."
+			]
+		}, 
+		"April 14th 2024": {
+			"Fix": [
+				"Disguise quote color wasn't saving.", 
+				"Disguise quote color wasn't saving."
+			], 
+			"Gremlin": [
+				"Evolution & Magic Core level requirement lowered from 180 to 150.", 
+				"Evolution & Magic Core level requirement lowered from 180 to 150."
+			]
+		}, 
+		"April 11th 2024": {
+			"Addition": [
+				"Gremlins now gain Danger+ EXP within settlement boundaries.", 
+				"Signature Summon: Nethradin.", 
+				"Gremlins now gain Danger+ EXP within settlement boundaries.", 
+				"Signature Summon: Nethradin."
+			], 
+			"Change": [
+				"Class mentoring of Occult/Holy now grants them a token to purchase rather than the opening spell.", 
+				"Class mentoring of Occult/Holy now grants them a token to purchase rather than the opening spell."
+			], 
+			"Fix": [
+				"Descriptors set to infinite duration were expiring.", 
+				"Prism Scattershot will no longer target dead enemies.", 
+				"Descriptors set to infinite duration were expiring.", 
+				"Prism Scattershot will no longer target dead enemies."
+			], 
+			"Spell - Cosmic": [
+				"Starlit Halo's barrier duration lowered from 3.5s to 2.5s. On-hit damage lowered from 7.5 to 6.5. Range lowered from 20 to 18.", 
+				"Starlit Halo's barrier duration lowered from 3.5s to 2.5s. On-hit damage lowered from 7.5 to 6.5. Range lowered from 20 to 18."
+			]
+		}, 
+		"April 8th 2024": {
+			"Addition": [
+				"Undead now benefit from the Self-Heal racial.", 
+				"Adds 'Grade' option to the edit item command. DMs should use this for event materials; the unique tag should be the name of the event.", 
+				"Undead now benefit from the Self-Heal racial.", 
+				"Adds 'Grade' option to the edit item command. DMs should use this for event materials; the unique tag should be the name of the event."
+			]
+		}, 
+		"April 6th 2024": {
+			"Addition": [
+				"Adds Hornless species option for Cambion.", 
+				"Atrellya Drakanite Half-Shift visual option via the /species command.", 
+				"Adds Hornless species option for Cambion.", 
+				"Atrellya Drakanite Half-Shift visual option via the /species command."
+			]
+		}, 
+		"April 5th 2024": {
+			"Spell - Absorption": [
+				"Flux is now a Basic. Flux now restores mana to the target.", 
+				"Inverse Infusion is now an Intermediate.", 
+				"Aperture's MP damage has been halved. Increases the AoE damage from 5 to 6.", 
+				"Flux is now a Basic. Flux now restores mana to the target.", 
+				"Inverse Infusion is now an Intermediate.", 
+				"Aperture's MP damage has been halved. Increases the AoE damage from 5 to 6."
+			], 
+			"Spell - Blood": [
+				"Re-added Blood Bomb to Blood, inflicts rot.", 
+				"Bio Attunement is now the opener to Blood.", 
+				"Phased out Blood Miasma into a Signature.", 
+				"Re-added Blood Bomb to Blood, inflicts rot.", 
+				"Re-added Blood Bomb to Blood, inflicts rot.", 
+				"Bio Attunement is now the opener to Blood.", 
+				"Phased out Blood Miasma into a Signature.", 
+				"Re-added Blood Bomb to Blood, inflicts rot."
+			], 
+			"Spell - Nature": [
+				"Rolling Vines is now the opener to Nature.", 
+				"Spores is now a Basic.", 
+				"Vine Whip re-added. Intermediate.", 
+				"Nature's Command is now a Basic.", 
+				"Yggdrasil heal increased from 4 to 5.", 
+				"Spring's Bloom special lowered from 10d/10s damage/duration to 5d/5s damage/duration.", 
+				"Rolling Vines is now the opener to Nature.", 
+				"Spores is now a Basic.", 
+				"Vine Whip re-added. Intermediate.", 
+				"Nature's Command is now a Basic.", 
+				"Yggdrasil heal increased from 4 to 5.", 
+				"Spring's Bloom special lowered from 10d/10s damage/duration to 5d/5s damage/duration."
+			], 
+			"Spell - Weapon Gem": [
+				"Mana Surge's mana heal should properly refresh your mana again, buffed from 5% to 10% AP for duration.", 
+				"Mana Surge's mana heal should properly refresh your mana again, buffed from 5% to 10% AP for duration."
+			], 
+			"Change": [
+				"Blood now has recolors for Sirenians, Cambions, Demons, and Synthetics.", 
+				"Mana damage derived from spell damage no longer pierces invulnerabilities.", 
+				"The /activity command now shows mana amnesia and rebirth potion uses and limits.", 
+				"Blood now has recolors for Sirenians, Cambions, Demons, and Synthetics.", 
+				"Mana damage derived from spell damage no longer pierces invulnerabilities.", 
+				"The /activity command now shows mana amnesia and rebirth potion uses and limits."
+			], 
+			"Fix": [
+				"Mighty Blow's visuals no longer linger.", 
+				"Call Forth now requires either Meta Attunement <i>or</i> Ether Attunement, rather than both.", 
+				"Mighty Blow's visuals no longer linger.", 
+				"Call Forth now requires either Meta Attunement <i>or</i> Ether Attunement, rather than both."
+			]
+		}, 
+		"April 4th 2024": {
+			"Addition": [
+				"Adds the Bag Booster item to the token store.", 
+				"Adds the Bag Booster item to the token store."
+			], 
+			"Spell - Cosmic": [
+				"Improves the hitbox of Crescent Moon, increasing its radius and centering the projectile.", 
+				"Improves the hitbox of Crescent Moon, increasing its radius and centering the projectile."
+			], 
+			"Fix": [
+				"Changes to underlying code allowed reflected damage to be reflected once again. Now damage (such as via Deflecting Palm) should refelct as usual.", 
+				"Changes to underlying code allowed reflected damage to be reflected once again. Now damage (such as via Deflecting Palm) should refelct as usual."
+			]
+		}, 
+		"April 2nd 2024": {
+			"Spell - Cosmic": [
+				"Special cosmic recolors for Nova Ray will keep the special recolor rather than the paler overdrive beam.", 
+				"Special cosmic recolors for Nova Ray will keep the special recolor rather than the paler overdrive beam."
+			]
+		}, 
+		"April 1st 2024": {
+			"Spell - Illusion": [
+				"Hypnosis damage decreased from 5 to 3.5.", 
+				"Hypnosis damage decreased from 5 to 3.5."
+			], 
+			"Fix": [
+				"Expired rumors were not being properly cycled out of the rotation. As a reminder, you can submit one by just typing /rumor!", 
+				"Expired rumors were not being properly cycled out of the rotation. As a reminder, you can submit one by just typing /rumor!"
+			]
+		}, 
+		"March 31st 2024": {
+			"Spell - Fortuna": [
+				"Fortuna spell costs adjusted from 15 each to 20 for the Aura, 10 for the Spells.", 
+				"Fortuna Hope cooldown increased from 30s to 35s.", 
+				"Fortuna Space damage decreased from 10 to 5. Cooldown increased from 25s to 32s.", 
+				"Fortuna Aura's passive was setting GCD to 0.1s rather than the intended 1s.", 
+				"Fortuna Death's AoE damage increased from 7 to 10.", 
+				"Fortuna spell costs adjusted from 15 each to 20 for the Aura, 10 for the Spells.", 
+				"Fortuna Hope cooldown increased from 30s to 35s.", 
+				"Fortuna Space damage decreased from 10 to 5. Cooldown increased from 25s to 32s.", 
+				"Fortuna Aura's passive was setting GCD to 0.1s rather than the intended 1s.", 
+				"Fortuna Death's AoE damage increased from 7 to 10."
+			], 
+			"Fix": [
+				"Old disguises were causing the new disguise description system to blank out. Now it saves properly on relog.", 
+				"Old disguises were causing the new disguise description system to blank out. Now it saves properly on relog."
+			]
+		}, 
+		"March 30th 2024": {
+			"Addition": [
+				"Influence is now tracked in settlements. You will see a 'Weekly' and 'Total' influence when entering a settlement, the accruement of all influence gained. This will be used for future planned features, but for now it serves as a general activity indicator.", 
+				"You can now throw item stacks into a Compost Bin.", 
+				"Influence is now tracked in settlements. You will see a 'Weekly' and 'Total' influence when entering a settlement, the accruement of all influence gained. This will be used for future planned features, but for now it serves as a general activity indicator.", 
+				"You can now throw item stacks into a Compost Bin."
+			], 
+			"Spell - Armed": [
+				"Adds the Basic Whirling Dervish to Armed.", 
+				"Precision Slash's windup delay reduced from 0.5s to 0.3s. Range of pull increased to 7x7.", 
+				"Adds the Basic Whirling Dervish to Armed.", 
+				"Precision Slash's windup delay reduced from 0.5s to 0.3s. Range of pull increased to 7x7."
+			], 
+			"Spell - Unarmed": [
+				"Adds the Basic Fist Barrage to Unarmed. This is still a work-in-progress, so feedback is welcome and changes are likely.", 
+				"Adds the Basic Fist Barrage to Unarmed. This is still a work-in-progress, so feedback is welcome and changes are likely."
+			], 
+			"Change": [
+				"If a Demon slays a Demon, or a Magical Beast, it only grants the EXP if they're Level 200+ now.", 
+				"If a Demon slays a Demon, or a Magical Beast, it only grants the EXP if they're Level 200+ now."
+			], 
+			"Fix": [
+				"Level milestone items weren't being unlocked if you rebirthed over the level requirement (disguise kit, dungeon keys, etc). This was more common with the 75% rebirth item.", 
+				"Level milestone items weren't being unlocked if you rebirthed over the level requirement (disguise kit, dungeon keys, etc). This was more common with the 75% rebirth item."
+			]
+		}
+	}, 
+	"2.05": {
+		"March 28th 2024": {
+			"Spell - Signature": [
+				"Added Magesight as an applicable ability, an alternative from Spectral Sight for future requests. Gives +20 Crit.", 
+				"Added Magesight as an applicable ability, an alternative from Spectral Sight for future requests. Gives +20 Crit."
+			], 
+			"Spell - Unarmed": [
+				"Lariat is now the opener to Unarmed.", 
+				"Followup now works on all Physical <u>and</u> subtree skills.", 
+				"Grapple CD reduced to 17s from 22s. Gains 20% DR for 3 seconds on successful grapple.", 
+				"Lariat is now the opener to Unarmed.", 
+				"Followup now works on all Physical <u>and</u> subtree skills.", 
+				"Grapple CD reduced to 17s from 22s. Gains 20% DR for 3 seconds on successful grapple."
+			], 
+			"Spell - Armed": [
+				"Sweeping Cleave's hitbox should be expanded.", 
+				"Halved Hundred Cuts' castlock, added 2 tiles to it's range (7 to 9).", 
+				"Sweeping Cleave's hitbox should be expanded.", 
+				"Halved Hundred Cuts' castlock, added 2 tiles to it's range (7 to 9)."
+			], 
+			"Spell - Physical": [
+				"Added the 10 spellpower onto Muscle Armor(+20 Vit/+10 Spellpower), restored cleanse effect on active.", 
+				"Mighty Blow's cooldown increased from 35s to 40s.", 
+				"Added the 10 spellpower onto Muscle Armor(+20 Vit/+10 Spellpower), restored cleanse effect on active.", 
+				"Mighty Blow's cooldown increased from 35s to 40s."
+			], 
+			"Spell - Mist": [
+				"Steam Burst now has doubled projectile speed.", 
+				"Steam Burst now has doubled projectile speed."
+			], 
+			"Spell - Styles": [
+				"No combat styles are exclusive with Armed/Unarmed.", 
+				"No combat styles are exclusive with Armed/Unarmed."
+			], 
+			"Fix": [
+				"Disarm now works without gauntlets/unarmed.", 
+				"Call Forth now properly reqs Ether Attunement.", 
+				"Physical Attunement now displays the correct description.", 
+				"Hundred Cuts' description fixed.", 
+				"Dash Strike dependencies for Physical and Armed spells fixed.", 
+				"50 RPP reqs for Armed/Unarmed shifted to 40.", 
+				"Mighty Blow is properly Physical reqqed.", 
+				"Disarm now works without gauntlets/unarmed.", 
+				"Call Forth now properly reqs Ether Attunement.", 
+				"Physical Attunement now displays the correct description.", 
+				"Hundred Cuts' description fixed.", 
+				"Dash Strike dependencies for Physical and Armed spells fixed.", 
+				"50 RPP reqs for Armed/Unarmed shifted to 40.", 
+				"Mighty Blow is properly Physical reqqed."
+			]
+		}, 
+		"March 27th 2024": {
+			"New Spell Tree - Physical": [
+				"Added the Physical Enhancement base tree, consisting of spells repurposed and adjusted. Please review these trees.", 
+				"Added the Physical Enhancement base tree, consisting of spells repurposed and adjusted. Please review these trees."
+			], 
+			"Spell - Physical": [
+				"Mighty Blow has had its Cooldown increased from 30 seconds to 35 seconds.", 
+				"Muscle Armor now gives 20 Vitality/10 Power, rather than 30 Spellpower and 10 Vitality.", 
+				"Mighty Blow has had its Cooldown increased from 30 seconds to 35 seconds.", 
+				"Muscle Armor now gives 20 Vitality/10 Power, rather than 30 Spellpower and 10 Vitality."
+			], 
+			"Change": [
+				"Summoning renamed to Spirit Magic.", 
+				"Spirit's opening changed to Call Forth, requires Ether Attunement.", 
+				"Summoning renamed to Spirit Magic.", 
+				"Spirit's opening changed to Call Forth, requires Ether Attunement."
+			], 
+			"Spell - Spirit": [
+				"Call Forth is now a singular spell. Rightclick it on your hotbar to adjust what summon you are using!", 
+				"New Summon: Spirit, from Ether Attunement.", 
+				"New Summon: Echo, from Meta Attunement", 
+				"New Summon: Weapon Spirit, from Physical Attunement.", 
+				"Power Return now has a proper Spell Damage to call on and be amplified by, rather than a flat 2000.", 
+				"Summon Obelisk is now an Intermediate.", 
+				"Spectral Sight is now a Spirit Master.", 
+				"Call Forth is now a singular spell. Rightclick it on your hotbar to adjust what summon you are using!", 
+				"New Summon: Spirit, from Ether Attunement.", 
+				"New Summon: Echo, from Meta Attunement", 
+				"New Summon: Weapon Spirit, from Physical Attunement.", 
+				"Power Return now has a proper Spell Damage to call on and be amplified by, rather than a flat 2000.", 
+				"Summon Obelisk is now an Intermediate.", 
+				"Spectral Sight is now a Spirit Master."
+			], 
+			"Spell - Stance": [
+				"Fixed Alacritas' Chosen's shield sprite.", 
+				"Fixed Alacritas' Chosen's shield sprite."
+			], 
+			"Spell - Energy": [
+				"You can now block Deflecting Palm damage. You will also hear a sound effect.", 
+				"You can now block Deflecting Palm damage. You will also hear a sound effect."
+			], 
+			"Fix": [
+				"Reflection no longer procs through invulnerabilities.", 
+				"Reflection no longer procs through invulnerabilities."
+			]
+		}, 
+		"March 26th 2024": {
+			"Addition": [
+				"The Soulbound Item Modifier now has better scaling: +1 power for every 1000 EXP the weapon contains, the requirement increasing by 2000 each power gained (so starts low but scales higher). See the Player Guide for more info.", 
+				"While observing a battle, you will now see any posts within view, and hear the same sounds as the character you're observing.", 
+				"Characters now drop all items when the Slay command is used, excluding the hair slot. Additionally, Demons gain 5000 EXP when they slay a Demon or Gremlin. It also now logs for staff and nearby players.", 
+				"The Soulbound Item Modifier now has better scaling: +1 power for every 1000 EXP the weapon contains, the requirement increasing by 2000 each power gained (so starts low but scales higher). See the Player Guide for more info.", 
+				"While observing a battle, you will now see any posts within view, and hear the same sounds as the character you're observing.", 
+				"Characters now drop all items when the Slay command is used, excluding the hair slot. Additionally, Demons gain 5000 EXP when they slay a Demon or Gremlin. It also now logs for staff and nearby players."
+			], 
+			"Optimization": [
+				"Spawning enemies at the start of a Monster Den wave should be more performant.", 
+				"Spawning enemies at the start of a Monster Den wave should be more performant."
+			], 
+			"Spell - Armed": [
+				"Dash Strike now increases your Damage Reduction by 20% during the dash.", 
+				"Fatal Strike cooldown decreased from 22s to 20s. On-hit damage increased from 18 to 20.", 
+				"Dash Strike now increases your Damage Reduction by 20% during the dash.", 
+				"Fatal Strike cooldown decreased from 22s to 20s. On-hit damage increased from 18 to 20."
+			], 
+			"Fix": [
+				"The /guide command now properly links to the Player Guide.", 
+				"The /guide command now properly links to the Player Guide."
+			]
+		}, 
+		"March 24th 2024": {
+			"Spell - Explosion": [
+				"Inferno's confusion duration lowered from 3s to 1.5s.", 
+				"Inferno's confusion duration lowered from 3s to 1.5s."
+			], 
+			"Spell - Holy": [
+				"Sanctified Flash stun duration increased from 0.75s to 1s.", 
+				"Sanctified Flash stun duration increased from 0.75s to 1s."
+			], 
+			"Spell - Shadowflame": [
+				"Shadowflame Aura's trail damage reduced from 7 to 2, as intended.", 
+				"Shadowflame Aura's trail damage reduced from 7 to 2, as intended."
+			], 
+			"Spell - Absorption": [
+				"Flux damage increased from 6 to 9. The range of impact has been increased from 3x3 to 7x7. 'Weighted' debuff duration increased from 5s to 7s. Adds a bit more clarity to the tooltip.", 
+				"Flux damage increased from 6 to 9. The range of impact has been increased from 3x3 to 7x7. 'Weighted' debuff duration increased from 5s to 7s. Adds a bit more clarity to the tooltip."
+			], 
+			"Spell - Gravity": [
+				"Compression's range of impact has been increased from 3x3 to 5x5. Stun duration increased from 0.2s to 1.5s. This extends to Fortuna Space, except its stun lasts for 1s instead of 1.5s.", 
+				"Galaxy Nova on-hit damage increased from 16 to 18.", 
+				"Compression's range of impact has been increased from 3x3 to 5x5. Stun duration increased from 0.2s to 1.5s. This extends to Fortuna Space, except its stun lasts for 1s instead of 1.5s.", 
+				"Galaxy Nova on-hit damage increased from 16 to 18."
+			], 
+			"Spell - Unarmed": [
+				"Spin Throw's grab range decreased from 3 to 2.", 
+				"Spin Throw's grab range decreased from 3 to 2."
+			], 
+			"Spell - Illusion": [
+				"Black Mirage duration increased from 3s to 5s.", 
+				"Hypnosis damage increased from 3 to 5. Cooldown inceased from 26s to 30s.", 
+				"Prison of Pain's range increased from 5 to 7, on-hit damage increased from 10 to 12. Cooldown increased from 35s to 40s.", 
+				"Black Mirage duration increased from 3s to 5s.", 
+				"Hypnosis damage increased from 3 to 5. Cooldown inceased from 26s to 30s.", 
+				"Prison of Pain's range increased from 5 to 7, on-hit damage increased from 10 to 12. Cooldown increased from 35s to 40s."
+			], 
+			"Spell - Light": [
+				"Photon Ray damage decreased from 15 to 12.5. Cooldown increased from 13s to 19s.", 
+				"Photon Ray damage decreased from 15 to 12.5. Cooldown increased from 13s to 19s."
+			], 
+			"Spell Addition - Summoning": [
+				"Shroom added as a public Summoning Contract. Requires bio attunement.", 
+				"Shroom added as a public Summoning Contract. Requires bio attunement."
+			], 
+			"Change": [
+				"Retainer token cost reduced from 100 to 50.", 
+				"Retainer token cost reduced from 100 to 50."
+			]
+		}, 
+		"March 23rd 2024": {
+			"Addition": [
+				"Adds an ingame changelog! Whenever changes are made you'll be alerted in the chat on login. This will actively be updated here on out. You can also do /changelog to view this log.", 
+				"Characters are now assigned a Deity and Religion value, and various new interactions via the Faith and Black Magic classes.", 
+				"Players now auto-observe when a Dangerous+ battle begins, if not already busy.", 
+				"Adds Tyrann as a Magical Beast option.", 
+				"Adds an ingame changelog! Whenever changes are made you'll be alerted in the chat on login. This will actively be updated here on out. You can also do /changelog to view this log.", 
+				"Characters are now assigned a Deity and Religion value, and various new interactions via the Faith and Black Magic classes.", 
+				"Players now auto-observe when a Dangerous+ battle begins, if not already busy.", 
+				"Adds Tyrann as a Magical Beast option."
+			], 
+			"Change": [
+				"Renames Rush Dungeons to Monster Dens for immersion sake.", 
+				"You can no longer preview spells in Monster Den events.", 
+				"Equipment now has the same price when buying and selling to shops.", 
+				"Renames Rush Dungeons to Monster Dens for immersion sake.", 
+				"You can no longer preview spells in Monster Den events.", 
+				"Equipment now has the same price when buying and selling to shops."
+			], 
+			"Fix": [
+				"Commendation of 5% EXP now properly applies and lasts for 3 days. Use /commend to salute your fellow players if you're impressed by a character!", 
+				"Commendation of 5% EXP now properly applies and lasts for 3 days. Use /commend to salute your fellow players if you're impressed by a character!"
+			]
+		}, 
+		"December 24th 2024": {
+			"Change - Ranged": [
+				"All amped versions of ranged spells under Archer's Poise now default to the spell.", 
+				"Archer's Poise now adds one of three debuffs selected to ranged damage."
+			], 
+			"Fix - Ranged": [
+				"Disabling Shot should now do it's full damage and slow duration."
+			], 
+			"Fix - Necromancy": [
+				"Binding an undead should no longer send you to the shadow realm. Whoops!"
+			], 
+			"Fix - Witchcraft": [
+				"Witchbooks could give you occult without prereqs. The menu location to learn occult has shifted slightly, but should work now!"
+			], 
+			"Fix - Physical": [
+				"Returned physical damage subtypes."
+			]
+		}, 
+		"December 21th 2024": {
+			"Change - Metal": [
+				"Caltrops Field now has a 24 second CD from 35.", 
+				"Shrapnel Missile now has a 16 second CD from 25."
+			], 
+			"Change - Shadow": [
+				"Void Cutter is now an intermediate."
+			], 
+			"Change - Cosmic": [
+				"Starlight/Crimson/Rosegold Overdrive merged into Cosmic Overdrive. Now makes you pick your star!"
+			], 
+			"Change - Blood": [
+				"Sanguine Mien is now Vampiric Mien, to differentiate it from Sanguine Overdrive. No longer has a healtick, now gives +5 Blood pow instead of AP, and +10 Blood def."
+			], 
+			"Change - Earth": [
+				"Increased responsiveness of Earth Spikes."
+			], 
+			"Change - Fortuna": [
+				"Fortuna no longer requires or gives faith.", 
+				"Fortuna aura is now a standard RPP cost aura."
+			], 
+			"Change - Ranged": [
+				"Disabling Shot now slows and bleeds instead of silences, and is now a basic.", 
+				"Missile Rain now has 3 ticks instead of 2.", 
+				"Archer's Poise now grants +50 crit, and is now a master.", 
+				"Projectile Barrage now has 5 width from 1, fires two more projectiles, and has increased spell damage from 5 to 6."
+			], 
+			"Change - Necromancy": [
+				"Properly made Undead now immediately level up to 180 automatically, and gain Self Heal. Necromancers can now transfer their food buff to their undead. Necromancers can now subdue their undead a la an antimagic collar, and can cut off their undead to inflict an unhealable -40 perm. This perm can be removed by gaining a new master. Undead will now die in 5 years without a necromantic master."
+			], 
+			"Change - Witchcraft": [
+				"Moonfall Signet Rings, Moonfall Demonblades, Moonfall Cambionization, and Moonfall Night Creature Summoning added to the correct Book of Shadows."
+			], 
+			"Change - Aging": [
+				"You will be warned when you approach your natural ending."
+			], 
+			"Addition - Spirit": [
+				"New spell added, Lesser Convocation."
+			], 
+			"Change - Spirit": [
+				"Summon Obelisk is now a Basic spell.", 
+				"Lesser Convocation is now the opener of Spirit.", 
+				"Power Return is now an Intermediate spell."
+			], 
+			"Spell - Drakanite": [
+				"Added shadow variant of dragon shift."
+			], 
+			"Fix": [
+				"Fixed Rift and Wayfinding energy cost issues.", 
+				"Hopefully really solved spirit meld speed.", 
+				"Guild boosts should delete properly.", 
+				"Lifeskill wisps should be killable."
+			]
+		}, 
+		"December 19th 2024": {
+			"Change": [
+				"Elsyian Berry improvements, a public deity list with flavor text attached to each.", 
+				"Scout now ignores party members."
+			], 
+			"Fix": [
+				"Arc of Devastation's sprite didn't match the hitbox.", 
+				"Alchemy Nodes were doing an occupation check, so you'd only get double resources if your occupation was set as forager.", 
+				"Improves the item stack so it respects screen zoom better."
+			]
+		}, 
+		"December 15th 2024": {
+			"Change": [
+				"Golden Eggs are now Ultra quality."
+			], 
+			"Fix": [
+				"Splitting item stacks and dropping were not setting the correct plane, should respect screen zoom now.", 
+				"Doctor's Assistant hitbox.", 
+				"Self Heal's customize injury description wasn't accounting for permanent injuries.", 
+				"Druid Circle's layering.", 
+				"The item modifiers Sprint and Invisibility weren't tracking their last usage properly.", 
+				"UI fixes, with the new close and craft buttons."
+			], 
+			"Addition": [
+				"Following the Spring of Rebirth that occured after overcoming the Extiction events, the rare Elysian Berries now grow in the wild vines surrounding Aetius Tower for the first time in several centuries. Allows a person to set their deity if they don't already have one."
+			]
+		}, 
+		"December 12th 2024": {
+			"UI": [
+				"Improved the crafting button's size,", 
+				"Improved the red X button size."
+			], 
+			"Race": [
+				"Faelings. Faeling Wings, Faeling Shift, Nyphadora's Gate, Fuel Lifeforce, and Conjure Pact."
+			], 
+			"Addition": [
+				"Lifeleech mehanic. Allows healing to be siphoned.", 
+				"Extreme Monster Dens now guarantee a rare ore drop on completion.", 
+				"The year age nerfs are now visible.", 
+				"Allows you to pick your glowy eye color for Spirit Sight."
+			], 
+			"Faith": [
+				"Updated Vdali to Vinaska."
+			], 
+			"Change": [
+				"Demon Hunter quest changed to Beast Hunting.", 
+				"Job Reset potions to use double the amount of Herdaia, and use Water Crystals."
+			], 
+			"Fix": [
+				"Some issues with being able to see invisible character names.", 
+				"Made Book of Shadows soul pact properly save.", 
+				"Oscuri overrides for holy/occult/energy.", 
+				"Tornado could bug out in some instances.", 
+				"Worldy Healer was taking 10 stat points rather than 10 spell points.", 
+				"Spirit Meld's speed glitch.", 
+				"Battle logs were saving incorrectly.", 
+				"Warborne's cooldown could prevent it from turning back on when it needed to update the bonus value.", 
+				"Transceiver's change channel issue."
+			]
+		}, 
+		"December 10th 2024": {
+			"Spell - Lightning": [
+				"Storm's Wrath's click teleport cooldown increased from 15s to 20s."
+			], 
+			"Spell - Earth": [
+				"Earthquake's cooldown increased from 30s to 35s."
+			], 
+			"Spell - Illusion": [
+				"Black Mirage's cooldown increased from 28s to 33s."
+			], 
+			"Spell - Gravity": [
+				"Compression's damage reduced from 8.5 to 7.5."
+			], 
+			"Spell - Shadow": [
+				"Assassin's Shroud's click teleport cooldown increased from 15s to 20s."
+			], 
+			"Spell - Spirit": [
+				"Power Return's cooldown increased from 20s to 25s. Healing SD reduced from 8 to 7."
+			]
+		}, 
+		"November 28th 2024": {
+			"Addition": [
+				"Wordly Healer - Mythic Class. Master Medic - Reduces Medic energy cost by 200. Unlock Curia Auria (30 Medic EXP + 10 Spell Points). Druid Circle (5 Medic EXP to cast) - Forms a healing circle that anyone can enter, reducing temporary injury duration. Miracle Heal (30 Medic EXP to cast + 5 Year Cooldown) - Fully heals a permanent injury of the target, randomized.", 
+				"Attribute Points now have descriptions on click."
+			], 
+			"Spell - Ranged": [
+				"Trickshot base damaged reduced from 3 to 2. Cooldown increased from 16s to 28s."
+			]
+		}, 
+		"November 24th 2024": {
+			"Optimization": [
+				"Optimizes weather volume. Also adds /weathervolume as a temp command until the options UI is given TLC in general."
+			], 
+			"Fix": [
+				"Ultra Quality ingredients was not adding bonuses in some recipes."
+			], 
+			"Change": [
+				"World EXP bonus reduced from 50% to 25%, duration increased from 2 hours to 4 hours."
+			]
+		}, 
+		"November 23rd 2024": {
+			"Change": [
+				"Rainfall is much less frequent but lasts for 20-30 minutes, also correlates to the season better.", 
+				"Training Dummy information text only appears if the object has recently taken damage."
+			], 
+			"Fix": [
+				"Oscuri - Warborne wasn't granting AP in some situations."
+			]
+		}, 
+		"November 19th 2024": {
+			"Addition": [
+				"Farming Lifeskill - Watering a crop now grants 1 farming EXP, rather than only harvesting.", 
+				"Training Dummy - HP is displayed below the Training Dummy, and various information, such as DPS.", 
+				"You can now sell items while facing a Merchant by Ctrl + Clicking within your inventory, instead of the usual drag and drop method.", 
+				"Spell - Self-Heal: You can now customize the flavor text of injuries after healing."
+			], 
+			"Fix": [
+				"Attribute Points weren't accounting for previous levels or set to a default of 1. This has been fixed, and Attribute Points have been reset."
+			]
+		}, 
+		"November 18th 2024": {
+			"Addition": [
+				"Attribute Points are now a mechanic, as previously used by DMs on events. You'll find Charisma, Wisdom, and Fortune within your stat panel. You gain a total of 8 Attribute Points (maxing out at level 230). To perform a Saving Throw, type the Attribute followed by the difficulty (for example, /fortune 4)."
+			], 
+			"Change": [
+				"Dungeon EXP lowered from 100 to 30 to match Monster Dens."
+			]
+		}, 
+		"November 14th 2024": {
+			"Addition": [
+				"Adds /voices command. Toggle this if you have a Telepathy to hear or not hear nearby stray thoughts.", 
+				"Alchemy - Lulannan Lorys'an. FOIC."
+			], 
+			"Change": [
+				"Weather - Adds layering to weather biome cells, for a more natural effect where it thins out the further away rather than a visible grid."
+			], 
+			"Fix": [
+				"Weather ambience SFX wasn't respecting the Hear Sounds option.", 
+				"Oscuri - Warborne's yearly decay was resetting daily.", 
+				"Gorgon - Serpentine's Embrace wasn''t silencing.", 
+				"Mailbox drag/drop wasn't checking settlement/building.", 
+				"Weather has returned, optimized and clean; it now uses 10 updating objects rather than 1000 per weather cell.", 
+				"Summoning - Spirit Meld wasn't updating summon speed correctly.", 
+				"Cooking - Signature Dish wasn't applying the stats on dish creation, and is now properly retroactive (unlocked at Level 50 Cooking)."
+			], 
+			"Spell": [
+				"Oscuri - Death Glare's damage has been reduced from 4 to 2.8.", 
+				"Ranged - Disabling Shot's silence has been reduced from 5s to 2s."
+			]
+		}, 
+		"November 6th 2024": {
+			"Addition": [
+				"Gorgon is a Level 220 rebirth race (Wilderness).", 
+				"Oscuri is a Level 220 rebirth race (Wilderness)."
+			], 
+			"Change": [
+				"Soulbound items now only progress while equipped, rather than while in your inventory."
+			], 
+			"Fix": [
+				"Nova Ray wasn't properly using its charged visual, and pieces of the beam didn't match.", 
+				"Weather optimizations.", 
+				"Rounding error with Warborne (Oscuri) that was preventing the AP from applying."
+			]
+		}, 
+		"November 3rd 2024": {
+			"Fix": [
+				"Oscuri - Rieka Surge.", 
+				"Weather wasn't recycling correctly.", 
+				"Oscuri -  Warborne is now a passive rather than a toggle."
+			], 
+			"Change": [
+				"Fresh Tilled Land now begins at 50% soil quality rather than 0%. Drastically reduces the rate of soil quality degrading; fertilizing your soil restores it to 100%."
+			], 
+			"Spell - Gorgon": [
+				"Curse of the Evil Eye spell cost reduced from 5 to 0."
+			]
+		}, 
+		"Halloween Update 2024": {
+			"Addition": [
+				"Festive 'Trick or Treat' Candy! It might temporarily transform you into a skeleton, make you glitchy, or splatter blood! Or maybe you'll get an item?", 
+				"The Gorgon race, the 'ynngaln-y'.", 
+				"The Oscuri race, after roughly two hundred escaped their imprisonment from the Hollow World.", 
+				"Necromancy Actions - Fleschrafting (fully mend an undead's wound). Maker's Seal (use on a subdued target; curses them with a permanent injury that increases by -3 each year, eventually transforming them into an undead). Forge Phylactery (). Skeletal Ring ().", 
+				"Faith - Prayer Rite. A variant of festival; it has a one year cooldown and costs 1000 Energy to cast, and grants those sharing your Faith 500 energy, It grants 5 Faith to the caster.", 
+				"Teach Medic - Tutor another in medicine, first aid, and surgery.", 
+				"Scout is now a spell characters begin with, and additionally invisible characters no longer appear in prompts (such as ping). There's a chance of detecting them when they're nearby.", 
+				"Giant Crops! A supersized crop that requires fertilized soil and excellent soil quality.", 
+				"Soil quality now degrades with each harvest by 20-40%; fertizliing your soil will restore the value to 100.", 
+				"Ultra Quality food, similar to High Quality except grants +2 power rather than +1 power.", 
+				"Farmer's Scythe. A craftable that lets you harvest in a 3x3 range."
+			], 
+			"Change": [
+				"You can use the Scout spell while riding a boat.", 
+				"Food now expires. It has a made year tracked and the experiation date is noted in the item description. In a future patch certain consumables (such as wine) will have different expiry."
+			], 
+			"Fix": [
+				"Chicken variants (brown, golden, brown/golden eggs) now appear."
+			]
+		}, 
+		"October 22nd 2024": {
+			"Spell - Air": [
+				"Wind Cutter's mana cost reduced from 20 to 10.", 
+				"Breezestep is now an intermediate.", 
+				"Shockwave's damage reduced from 18 to 16.", 
+				"Vacuum Vortex's initial damage increased from 16 to 19."
+			], 
+			"Spell - Lightning": [
+				"Shock's cast lock (preventing movement after usage) removed.", 
+				"Arc of Devastation's cooldown reduced from 34s to 30s."
+			], 
+			"Spell - Tempest": [
+				"Aeolian Cascade's projectile range increased by 2.", 
+				"Amount of times Cloudburst deals damage reduced from 7 to 6, bringing its total damage down from 17.5 to 15."
+			], 
+			"Spell - Magma": [
+				"Lava Pool's initial damage reduced from 12 to 8."
+			], 
+			"Spell - Wellspring": [
+				"Aquatic Flow's total damage healed increased from 8 to 10.", 
+				"Wellspring Aegis's power increased from 20 to 30."
+			], 
+			"Spell - Holy": [
+				"Sanctified Flash no longer blinds on hit.", 
+				"Lifebomb damage reduced from 5 to 4."
+			], 
+			"Spell - Gravity": [
+				"Galaxy Nova's initial damage reduced from 18 to 16."
+			], 
+			"Spell - Armed": [
+				"Quickdraw now has CC immunity. CD increased to 25s.", 
+				"Fatal Strike damage reduced from 20 to 18. CD increased from 20s to 25s."
+			], 
+			"Spell - Unarmed": [
+				"Follow Up is now an intermediate.", 
+				"Murderous Surge damage decreased from 17.5 to 15."
+			], 
+			"Spell - Ranged": [
+				"Missile Rain's activation delay is now one second faster.", 
+				"Trick Shot no longer has increased damage based on distance travelled. Damage increased from 3 to 4.5.", 
+				"Disabling Shot's silence duration decreased to 2s with Archer's Poise, 1s without.", 
+				"Disabling Shot's damage increased from 6 to 10.", 
+				"Disabling Shot's total bleed damage reduced to 5."
+			], 
+			"Spell - Stances": [
+				"All basic stances now include the Garuda TP effect."
+			], 
+			"Spell - Gemstone": [
+				"Mana Surge's mana regen decreased from 250 to 50."
+			]
+		}, 
+		"October 18th 2024": {
+			"Addition": [
+				"Halloween bags! You can find them in the Token Store. Share a candy bag with a find and discover a trick (effect) or treat (fesive item) with another! This is a seasonal item that will be phased out come November."
+			], 
+			"Spell - Spirit": [
+				"Power Return is now the opener, rather than Call Forth.", 
+				"Power Return's cooldown increased from 20s to 25s.", 
+				"Link Transposition's cooldown increased from 25s to 30s."
+			], 
+			"Spell - Ice": [
+				"Glacial Lance AoE duration increased from 2s to 4s."
+			], 
+			"Spell - Holy": [
+				"Benediction initial damage increased from 4.5 to 7."
+			], 
+			"Spell - Occult": [
+				"Corruption initial damage increased from 4.5 to 7.", 
+				"Curse DoT increased from 2.5 to 3.5, total of 14. Cooldown increased from 35s to 40s."
+			], 
+			"Spell - Physical": [
+				"Intermediate requirements standardized to 40 rather than 30."
+			]
+		}, 
+		"October 7th 2024": {
+			"Addition": [
+				"Mailboxes can now be placed for both settlements and constructed buildings. These work the same as mailboxes that non-constructed buildings can use.", 
+				"Adds Ranged Magic."
+			], 
+			"Change": [
+				"Menu sound volume reduced by 40%."
+			], 
+			"October 2nd 2024": [
+				""
+			]
+		}, 
+		"September 30th 2024": {
+			"Addition": [
+				"Adds Wolken, Ursine, Razukia, and Batkin as sub-races of Beastkin."
+			], 
+			"Spell - Magma": [
+				"Volcanic Barrier's self-root now unlocks slightly before the immunity expires."
+			], 
+			"Spell - Fire": [
+				"Adds Glroious Inferno as a new Fire Master."
+			], 
+			"Spell - Plasma": [
+				"Moves Cauterize to Plasma as a Master.", 
+				"Moves Firestorm to Plasma as an Intermediate."
+			], 
+			"Spell - Signature": [
+				"Polymorth now hits as Shockwave, rather than single tile."
+			]
+		}, 
+		"September 19th 2024": {
+			"Addition": [
+				"Many more auras now show their special cooldown visual icon.", 
+				"You can now set an heir to a building, and characters no longer retain property on death or rebirth."
+			], 
+			"Change": [
+				"Temporarily (for the next week or so) all characters will have been marked as receiving platinum rewards (x-boosters & mount). Afterwards this process will be automated on receiving the patron rank, rather than manually given as it was."
+			]
+		}, 
+		"September 13th 2024": {
+			"Addition": [
+				"Adds Progression Points current and total to /activity. Increases via EXP (only by roleplaying, not PvE) and influence gain, the former is a 1:1 ratio and the latter is 1:0.5. Ignore this for now.", 
+				"Adds a Staff command, Bestow, that grants 10k PP and increases PP gain by 50% for 2 weeks. Again ignore this for now; some details were shared in recent forum discussions however.", 
+				"Violet Viel, an alchemy drug recipe."
+			], 
+			"Change": [
+				"Converts all Armed and Unarmed damage to Physical."
+			], 
+			"Spell - Fire": [
+				"Primordial Flames AP lowered from 15 to 10. Still grants 5 Fire Pow/Def however.", 
+				"Overheat cooldown increased from 23s to 28s."
+			]
+		}, 
+		"September 9th 2024": {
+			"Addition - Spell": [
+				"Vdali Nephilim Passive - Deals frostbite briefly on a 30s CD.", 
+				"Chains of Mortyl aura."
+			], 
+			"Spell - Mestra Aether": [
+				"The Mestra AoE's range has been increased from 1 to 4."
+			], 
+			"Spell - Metal": [
+				"The number of Sword of Heaven follow up blades reduced from 10 to 5."
+			], 
+			"Spell - Signature": [
+				"Super Magi now grants 15% AP/5% DR rather than 15/10."
+			], 
+			"Spell - Signature ": [
+				"Conversion converts 80% of incoming damage rather than 100%, also improves the sprite."
+			], 
+			"Spell - Fairy": [
+				"Fairy power increased from 120 to 150."
+			], 
+			"Fix": [
+				"Fixes Defend being able to loop ala reflect."
+			]
+		}, 
+		"September 6th 2024": {
+			"Addition": [
+				"Faith - Oath now adds the Paladin item modifier to weapons, and locks wearables to a religion or deity.", 
+				"Witchcraft now has a Sacrilege action: Corrupt an item, sealing its' fate. Costs 15 esssence; Restores and gains essence if subsuming the blessing of the gods."
+			], 
+			"New Spell - Metal": [
+				"Caltrops Field: Scatter a morass of painful metal shards to rend your opponents legs, creating an aoe to inflict slow and bleed on hit.", 
+				"Shrapnel Missile: Launch a compact missile of iron. If it misses the target, it bursts and detonates into shrapnel, inflicting bleed on hit."
+			], 
+			"Spell - Metal": [
+				"Steel Form is now a Basic rather than an Intermediate.", 
+				"Grappling Hook is now an Intermediate rather than a Basic.", 
+				"Titan's Lance is now an intermediate rather than a Basic."
+			], 
+			"Spell - Fire": [
+				"Primordial Flames now grants an additional 5 fire pow/def."
+			], 
+			"Fix": [
+				"Curia Aurora wasn't resetting the heal crit chace.", 
+				"Death Aura wasn't set to the Occult element (was Death).", 
+				"Makes Holy Flame Embers not heal multiple times in the same tick."
+			]
+		}, 
+		"August 30th 2024": {
+			"Addition": [
+				"Adds a 32x32 cosmetic template to the merchant.", 
+				"Adds the Bag Booster item to the token store."
+			], 
+			"Change": [
+				"Rebirth Potion uses reduced to 2. Level limit increased to 220.", 
+				"Paper now costs 25 Energy to craft rather than 100."
+			], 
+			"Spell - Fortuna": [
+				"Fortuna - Space cooldown increased from 32s to 40s.", 
+				"Fortuna - Aura GCD reduction passive duration reduced from 5s to 3s."
+			]
+		}, 
+		"August 24th 2024": {
+			"Change": [
+				"Each year a character is younger than 18, their height is reduced by 5% (max of 25%). So you should set your adult height."
+			], 
+			"Spell - Faith": [
+				"Restore Vigor Faith cost increased from 50 to 100."
+			], 
+			"Spell - Barrier": [
+				"Barrier of Light cooldown increased from 30s to 45s."
+			], 
+			"Spell - Ent": [
+				"Number of Vine Summons reduced from 10 to 5."
+			], 
+			"Spell - Cambion": [
+				"Adversity cooldown increased from 0.5s to 3s."
+			], 
+			"Spell - Armed": [
+				"Galeforce replaced by Double Slash.", 
+				"Hundred Cuts range increased from 9 to 11. Damage increased from 4.5 to 6."
+			]
+		}, 
+		"August 19th 2024": {
+			"Addition": [
+				"Brown Bear and Black Wolf skins (30 Monster Den tokens each)."
+			]
+		}, 
+		"August 17th 2024": {
+			"Addition": [
+				"The base mount (Brown Horse) has a 'Buy Skin' option. Each skin costs Monster Den tokens and is permanently added to the mount, so you can switch between as desired. These are currently just  Black Horse (30), and White Horse (30), but more will be added over time."
+			]
+		}, 
+		"August 15th 2024": {
+			"Addition": [
+				"A /settlements command that displays all settlments in-game, including their descriptions and influence numbers.", 
+				"Platinum+ patrons now spawn with a character bound mount."
+			], 
+			"Change": [
+				"Faction armor now requires a linked faction, and can be locked to rank. Faction leaders should use their faction NPC and use Update Gear Link. Outdated faction gear will need remade by players to ensure stat uniformity; It will not be refunded.", 
+				"Relationships are now organized and displayed better, rather than multiple entries for the same character they're grouped into one."
+			], 
+			"Fix": [
+				"Master and Grandmaster artisan are no longer worse at giving vit than Artisan itself."
+			], 
+			"Spell - Sound": [
+				"Range of Boomburst reduced by 1. Reduces confusion durations slightly in general."
+			]
+		}, 
+		"August 10th 2024": {
+			"Addition": [
+				"Public event and guild announces now cross-post into the Discord's IC-announcements channel.", 
+				"Relationships are now visible to Staff via View Stats.", 
+				"Aerodyne race. FOIC.", 
+				"Wolken beastkin. Arcadia is now a spawn point.", 
+				"A Drakanite wing color, blue feathered wings.", 
+				"Adds a new Synthetic sub race, Spriggan, for the creations of Basil Mooney. They receive a discount on Nature rather than metal, and a penalty to Bone rather than Bio."
+			], 
+			"Fix": [
+				"Lumin Wine wasn't giving mana.", 
+				"Upgrading Undead with Undying."
+			], 
+			"Spell - Absorption": [
+				"Apperture cooldown reduced from 40s to 35s. MP damage doubled."
+			], 
+			"Spell - Spirit": [
+				"Spirit Sight now gives +10k HP and +50 force to the summon."
+			]
+		}, 
+		"August 7th 2024": {
+			"Addition": [
+				"Monster Dens now contribute to the Dungeon count in activity."
+			], 
+			"Fix": [
+				"Boomburst could move NPCs."
+			]
+		}, 
+		"August 4th 2024": {
+			"Addition": [
+				"Adds the relationship types Crush, Admire, Infatuated, Idol, Positive, Negative, Curious, Fearful, and Conflicted."
+			], 
+			"Fix": [
+				"Speed wasn't resetting after breaking follow."
+			]
+		}, 
+		"July 31st 2024": {
+			"Addition": [
+				"The first Mount has been added, the Plain Horse. It provides an out-of-combat speed boost and also doubles as a Lifeskill Familiar with various customization options. It costs 100 Monster Den tokens and also requires patron to equip (any tier). In the future as we add more skins you'll be able to unlock them in exchange for tokens, via this item directly.", 
+				"Players now have a 'Manage Relationships' spell. You can set a nearby or distant character as a relationship, and view your relationships. Flavor text is posted if they're nearby."
+			], 
+			"Change": [
+				"If your inventory is full, on completion of a Monster Den the tokens will drop beneath you rather than being lost."
+			], 
+			"Temporary": [
+				"Retainers have been temporarily disabled. Some other optimization experiments."
+			], 
+			"Fix": [
+				"The Sprint Item Modifier had no cooldown."
+			], 
+			"Spell - Metal": [
+				"Binding Chains damage decreased from 4.3 to 1.5."
 			]
 		}
 	}
