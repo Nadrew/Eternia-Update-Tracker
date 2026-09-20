@@ -470,7 +470,9 @@
 				"Adds Jab. (Unarmed)", 
 				"Flying Kick damage increased from 14 to 8, range increased by 2, made GCDE. (Unarmed)"
 			]
-		}, 
+		}
+	}, 
+	"2.10": {
 		"June 28 2026": {
 			"Change": [
 				"Expert medic heal EXP reduced from 5 to 2. Standard medic heal EXP unchanged.", 
@@ -1758,9 +1760,7 @@
 				"Mind Fray duration INF->2", 
 				"Amnesia reworked to redraw your hand without reducing total hand size."
 			]
-		}
-	}, 
-	"2.10": {
+		}, 
 		"Autumn Update - October 12 2025": {
 			"Tactical Combat Beta": [
 				"The long anticipated tactical combat is now in public testing! Select a class, choose your affinities, and assemble a grimoire of skills. See the grimoire's help page for further information!"
@@ -1775,7 +1775,9 @@
 				"All drinks and foods made outside of the cooking pot no longer give cooking XP.", 
 				"Drinks no longer give stat bonuses. Support to be added in the crafting overhaul."
 			]
-		}, 
+		}
+	}, 
+	"2.09": {
 		"October 3 2025": {
 			"Change": [
 				"Daily EXP now resets at 00:00 GMT instead of 24 hours after completion."
@@ -3237,7 +3239,7 @@
 			]
 		}
 	}, 
-	"2.09": {
+	"2.08": {
 		"July 27th 2024": {
 			"Addition": [
 				"Undead now gain the 'Undying' passive when upgraded to their zombie form, instead of 'Sturdy'. This grants them 25 vitality & 10 power, with the downside of being unable to digest food."
@@ -3369,7 +3371,7 @@
 			]
 		}
 	}, 
-	"2.08": {
+	"2.07": {
 		"June 22nd 2024": {
 			"Spell - Physical": [
 				"Muscle Armor's special now has an on-screen cooldown icon."
@@ -3424,7 +3426,7 @@
 			]
 		}
 	}, 
-	"2.07": {
+	"2.06": {
 		"June 13th 2024": {
 			"Addition": [
 				"Swim potion, temporary duration of 30 minutes."
@@ -3530,7 +3532,7 @@
 			]
 		}
 	}, 
-	"2.06": {
+	"2.05": {
 		"April 29th 2024": {
 			"Spell - Barrier": [
 				"Reworks Barrier of Light. It now applies a Damage Shield to yourself and your party, increasing by 4x power each damage tick. Trapping mechanics remain."
@@ -3746,7 +3748,7 @@
 			]
 		}
 	}, 
-	"2.05": {
+	"2.04": {
 		"March 28th 2024": {
 			"Spell - Signature": [
 				"Added Magesight as an applicable ability, an alternative from Spectral Sight for future requests. Gives +20 Crit."
