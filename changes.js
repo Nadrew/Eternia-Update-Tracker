@@ -1,4 +1,4 @@
-const gameIP = "http://205.209.114.162:9000";
+const gameIP = "https://nadrew.github.io/Eternia-Update-Tracker";
 
 var loadedChanges = null;
 
