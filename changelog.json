@@ -422,9 +422,7 @@
 				"Bonds of Blood no longer heals the owner from Rock Wall: Fortress, Obelisk, and Paint It Black objects bleeding.", 
 				"Restful Respite no longer breaks after being used once."
 			]
-		}
-	}, 
-	"2.10": {
+		}, 
 		"June 29 2026": {
 			"Fix": [
 				"Revert can no longer be used under the effects of Polymorph."
@@ -1760,7 +1758,9 @@
 				"Mind Fray duration INF->2", 
 				"Amnesia reworked to redraw your hand without reducing total hand size."
 			]
-		}, 
+		}
+	}, 
+	"2.10": {
 		"Autumn Update - October 12 2025": {
 			"Tactical Combat Beta": [
 				"The long anticipated tactical combat is now in public testing! Select a class, choose your affinities, and assemble a grimoire of skills. See the grimoire's help page for further information!"
