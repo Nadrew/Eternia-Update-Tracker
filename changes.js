@@ -47,6 +47,8 @@ function VersionChanged(elem) {
 		}
 		selectedVersionSpan.classList.remove("changeSelected");
 	}
+	var searchInput = document.getElementById("changeSearchInput");
+	searchInput.value = "";
 	elem.classList.add("changeSelected");
 	selectedVersion = elem.innerHTML;
 	selectedVersionSpan = elem;
@@ -59,6 +61,8 @@ function DateChanged() {
 	if(selectedOption) {
 		selectedOption.classList.remove("dateSelected");
 	}
+	var searchInput = document.getElementById("changeSearchInput");
+	searchInput.value = "";
 	dateSelected.classList.add("dateSelected");
 	selectedOption = dateSelected;
 	selectedDate = dateSelected.text;
@@ -106,4 +110,88 @@ function ShowChanges() {
 			
 		}
 	}
+}
+
+function SearchSubmit() {
+	var searchInput = document.getElementById("changeSearchInput");
+	SearchChanges(searchInput.value);
+}
+
+function SearchChanges(query) {
+	var searchResults = [];
+	query = query.toLowerCase();
+	query = query.replace(/[^a-z0-9 ]/gi, "");
+	if(query && query.length >= 3) {
+		var dateSelect = document.getElementById("changeDate");
+		dateSelect.replaceChildren();
+		selectedVersion = null;
+		selectedDate = null;
+		var changeContainer = document.createElement("div");
+		if(selectedVersionSpan) {
+			selectedVersionSpan.classList.remove("changeSelected");
+		}
+		selectedVersionSpan = null;
+		var changeContent = document.getElementById("changeContent");
+		changeContent.replaceChildren();
+		for(var [changeVersion, changeDates] of Object.entries(loadedChanges)) {
+			for(var [changeDate, changeCategories] of Object.entries(changeDates)) {
+				for(var [changeCategory, changeNotes] of Object.entries(changeCategories)) {
+					 if(Array.isArray(changeNotes)) {
+						changeNotes.forEach(changeNote => {
+							if(changeNote.toLowerCase().includes(query)) {
+								var highlightPattern = new RegExp(query, "gi");
+								var highlightResult = changeNote.replace(highlightPattern, "<span class=\"searchHighlight\">$&</span>");
+								searchResults[changeVersion] = searchResults[changeVersion] || {};
+								searchResults[changeVersion][changeDate] = searchResults[changeVersion][changeDate] || {};
+								searchResults[changeVersion][changeDate][changeCategory] = searchResults[changeVersion][changeDate][changeCategory] || [];
+								searchResults[changeVersion][changeDate][changeCategory].push(highlightResult);
+							}
+						});
+					}
+				}
+			}
+		}
+		var totalResults = 0;
+		for(var [resultVersion,resultDates] of Object.entries(searchResults)) {
+			var versionDiv = document.createElement("div");
+			versionDiv.classList.add("searchResultVersion");
+			versionDiv.innerHTML = resultVersion;
+			for(var [resultDate,resultCategories] of Object.entries(resultDates)) {
+				var dateDiv = document.createElement("div");
+				dateDiv.classList.add("searchResultDate");
+				dateDiv.innerHTML = resultDate;
+				for(var [resultCategory,resultNotes] of Object.entries(resultCategories)) {
+					console.log(resultNotes);
+					var categoryDiv = document.createElement("div");
+					categoryDiv.classList.add("searchResultCategory");
+					categoryDiv.innerHTML = resultCategory;
+					if(Array.isArray(resultNotes)) {
+						resultNotes.forEach(resultNote => {
+							var noteSpan = document.createElement("span");
+							noteSpan.classList.add("searchResultNote");
+							noteSpan.innerHTML = resultNote;
+							categoryDiv.appendChild(noteSpan);
+							totalResults++;
+						});
+					}
+					dateDiv.appendChild(categoryDiv);
+				}
+				versionDiv.appendChild(dateDiv);
+			}
+			changeContainer.appendChild(versionDiv);
+		}
+		var resultHeader = document.createElement("span");
+		resultHeader.classList.add("searchHeader");
+		resultHeader.innerHTML = "Search results for \"" + query + "\" (" + totalResults + " found)";
+		changeContent.appendChild(resultHeader);
+		changeContent.appendChild(changeContainer);
+	}
+	
+	else {
+		SearchError("Queries must be at least 3 characters long");
+	}
+}
+
+function SearchError(error) {
+
 }

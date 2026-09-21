@@ -129,6 +129,7 @@ select.changeDate {
 	width: 99%;
 	font-size: 12pt;
 	text-align: center;
+	border: thin solid white;
 }
 
 option.dateOption {
@@ -142,6 +143,83 @@ option.dateOption:nth-child(even) {
 
 option.dateSelected {
 	background-color: #436ce3;
+}
+
+div.changeSearch {
+	margin-top: 10px;
+}
+
+span.changeSearchBox {
+	display: flex;
+	width: 100%;
+}
+
+input.changeSearchInput {
+	background-color: #436ce3;
+	color: white;
+	padding: 5px;
+	font-size: 12pt;
+	border-radius: 5px;
+	width: calc(99% - 12px);
+	border: thin solid white;
+}
+
+input.changeSearchSubmit {
+	background-color: #436ce3;
+	color: white;
+	border-radius: 5px;
+	border: thin solid white;
+	width: 85px;
+	margin-left: 8px;
+}
+
+span.searchHeader {
+	font-weight: 600;
+	font-size: 16pt;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+span.searchResult {
+	margin-left: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+span.searchHighlight {
+	background-color: yellow;
+	color: black;
+	padding: 1px;
+	border-radius: 2px;
+}
+
+div.searchResultVersion {
+	font-weight: 800;
+	font-size: 14pt;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+div.searchResultDate {
+	font-size: 14pt;
+	margin-left: 20px;
+	padding: 5px;
+	font-weight: 500;
+}
+
+div.searchResultCategory {
+	font-size: 12pt;
+	margin-left: 40px;
+	padding: 5px;
+	font-weight: normal;
+}
+
+span.searchResultNote {
+	font-size: 10pt;
+	margin-left: 80px;
+	display: block;
+	padding: 5px;
+	font-weight: normal;
 }
 
 div.changeContent {
@@ -173,11 +251,23 @@ span.changeDetails {
 }
 
 div.changeFooter {
-	margin-top: 40px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+div.changeAuthor {
+	font-size: 10pt;
+	margin-bottom: 5px;
+	margin-left: 5px;
 }
 
 a.footerLink {
 	text-decoration: underline;
 	color: #436ce3;
+}
+
+img.supportImage {
+	border: none;
+	height:36px;
 }
 
