@@ -1,5 +1,16 @@
 {
 	"2.11": {
+		"September 21 2026": {
+			"Addition": [
+				"Sleeping players can now be shaken, informing them that someone in the waking world wishes for their attention."
+			], 
+			"Change": [
+				"Undead essence gain is now tied to a 0 RPP passive available to all undead.", 
+				"Celerium withdrawl AGI/CRIT penalty increased -10 -> -20 (>4 uses -15 -> 30).", 
+				"Celerium withdrawl VIT penalty (at >2 uses) increased -5 -> -10.", 
+				"Celerium DR -7% -> -8%."
+			]
+		}, 
 		"September 19 2026": {
 			"Addition": [
 				"Clicking on a sleeping player now displays a message."

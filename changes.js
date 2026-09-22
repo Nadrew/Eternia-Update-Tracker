@@ -9,7 +9,8 @@ var selectedDate = null;
 var selectedOption = null;
 
 async function LoadChanges() {
-	fetch(gameIP + "/changelog.json")
+	//fetch(gameIP + "/changelog.json")
+	fetch("changelog.json")
 		.then(pro => pro.json())
 		.then(reply => ParseChanges(reply));
 }
