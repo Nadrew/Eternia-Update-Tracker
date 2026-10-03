@@ -1,5 +1,29 @@
 {
 	"2.11": {
+		"September 29 2026": {
+			"Addition": [
+				"Added a \"Discord\" entry to role applications.", 
+				"Added a \"Character Magic\" and a \"Alternative Okay\" entry to ability applications."
+			], 
+			"Addition - Jotun": [
+				"New racial added, Argentize."
+			], 
+			"Change": [
+				"Players are now able to view previous revisions of rules via /rules."
+			], 
+			"Change - Jotun": [
+				"Racial discount changed to Ice."
+			], 
+			"Change - Water": [
+				"Adjusts tidal wave's color pallette slightly, to prepare for additonal recolors."
+			], 
+			"Removal - Jotun": [
+				"Jotun no longer have access to Mountain Bulwark."
+			], 
+			"Fix": [
+				"Fixed some issues relating to owner names not getting wiped when rent laspes."
+			]
+		}, 
 		"September 21 2026": {
 			"Addition": [
 				"Sleeping players can now be shaken, informing them that someone in the waking world wishes for their attention."
