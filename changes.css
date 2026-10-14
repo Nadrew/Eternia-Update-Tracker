@@ -59,11 +59,7 @@ span.titleSub {
 	margin-top: -20px;
 	color: var(--logoBlue);
 	font-family: Verdana;
-	filter: 
-		drop-shadow(1px 0px 0px var(--titleOutline))
-		drop-shadow(-1px 0px 0px var(--titleOutline))
-		drop-shadow(0px 1px 0px var(--titleOutline))
-		drop-shadow(0px -1px 0px var(--titleOutline));
+
 }
 	
 
