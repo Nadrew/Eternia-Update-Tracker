@@ -1,15 +1,43 @@
 {
 	"2.11": {
-		"September 29 2026": {
+		"October 13 2026": {
+			"Change": [
+				"Energy Shroud is now a master."
+			], 
+			"Fix": [
+				"Retainers now lose happiness each year, as intended.", 
+				"Potentially fixed inconsistency with GCD slows (e.g. Mud).", 
+				"Fixed a lot of issues pertaining to downed players and monsters."
+			], 
+			"Removal": [
+				"Removed Mega Buster."
+			]
+		}, 
+		"October 9 2026": {
+			"Fix": [
+				"Fixed Miracle Heal not reducing VIT penalties correctly."
+			]
+		}, 
+		"October 8 2026": {
 			"Addition": [
 				"Added a \"Discord\" entry to role applications.", 
-				"Added a \"Character Magic\" and a \"Alternative Okay\" entry to ability applications."
+				"Added a \"Character Magic\" and a \"Alternative Okay\" entry to ability applications.", 
+				"Sleeping players can now be shaken, informing them that someone in the waking world wishes for their attention."
 			], 
 			"Addition - Jotun": [
 				"New racial added, Argentize."
 			], 
 			"Change": [
-				"Players are now able to view previous revisions of rules via /rules."
+				"Players are now able to view previous revisions of rules via /rules.", 
+				"The Kaor Demon residing in the caves dungeon has finally gotten the memo and left; a particularly venomous crellus has taken its place.", 
+				"Resource nodes no longer require settlements to own, now only requiring a guild. Personal influence is now used instead of settlement influence.", 
+				"Undead essence gain is now tied to a 0 RPP passive available to all undead.", 
+				"Celerium withdrawl AGI/CRIT penalty increased -10 -> -20 (>4 uses -15 -> 30).", 
+				"Celerium withdrawl VIT penalty (at >2 uses) increased -5 -> -10.", 
+				"Celerium DR -7% -> -8%."
+			], 
+			"Change - Armed": [
+				"Double Slash now uses ARMED instead of PHYSICAL."
 			], 
 			"Change - Jotun": [
 				"Racial discount changed to Ice."
@@ -21,18 +49,9 @@
 				"Jotun no longer have access to Mountain Bulwark."
 			], 
 			"Fix": [
-				"Fixed some issues relating to owner names not getting wiped when rent laspes."
-			]
-		}, 
-		"September 21 2026": {
-			"Addition": [
-				"Sleeping players can now be shaken, informing them that someone in the waking world wishes for their attention."
-			], 
-			"Change": [
-				"Undead essence gain is now tied to a 0 RPP passive available to all undead.", 
-				"Celerium withdrawl AGI/CRIT penalty increased -10 -> -20 (>4 uses -15 -> 30).", 
-				"Celerium withdrawl VIT penalty (at >2 uses) increased -5 -> -10.", 
-				"Celerium DR -7% -> -8%."
+				"Fixed some issues relating to owner names not getting wiped when rent laspes.", 
+				"Characters created via synthetic shells and homunculus vats now spawn at their creator's location.", 
+				"Fixed guild EXP boosters persisting until relog after expiring."
 			]
 		}, 
 		"September 19 2026": {

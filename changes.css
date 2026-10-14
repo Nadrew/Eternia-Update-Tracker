@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+:root {
+	--prettyBlue: #436ce3;
+	--dateOdd: #2139b1;
+	--logoBlue: #529ce0;
+	--titleOutline: #3f5cd0;
+}
+
 html {
 	width: 100%;
 	height: 100%;
@@ -17,6 +24,7 @@ body {
 	height: 100%;
 	width: 100%;
 }
+
 
 
 div.contentContainer {
@@ -38,10 +46,24 @@ span.titleGame {
 	font-weight: 800;
 }
 
+img.titleLogo {
+	width: 400px;
+	height: 200px;
+}
+
+
 span.titleSub {
 	display: block;
 	font-size: 22pt;
 	font-weight: 600;
+	margin-top: -20px;
+	color: var(--logoBlue);
+	font-family: Verdana;
+	filter: 
+		drop-shadow(1px 0px 0px var(--titleOutline))
+		drop-shadow(-1px 0px 0px var(--titleOutline))
+		drop-shadow(0px 1px 0px var(--titleOutline))
+		drop-shadow(0px -1px 0px var(--titleOutline));
 }
 	
 
@@ -86,7 +108,7 @@ span.changeVersion {
 	justify-content: center;
 	align-items: center;
 	box-sizing: border-box;
-	background-image: linear-gradient(to top, transparent 50%, #436ce3 50%);
+	background-image: linear-gradient(to top, transparent 50%, var(--prettyBlue) 50%);
 	background-size: 100% 200%;
 	background-position: bottom;
 	transition: all 0.2s ease;
@@ -124,7 +146,7 @@ span.changeDate {
 }
 
 select.changeDate {
-	background-color: #436ce3;
+	background-color: var(--prettyBlue);
 	color: white;
 	padding: 5px;
 	border-radius: 5px;
@@ -134,17 +156,19 @@ select.changeDate {
 	border: thin solid white;
 }
 
+
 option.dateOption {
-	background-color: navy;
+	background-color: color-mix(in srgb, var(--prettyBlue), #0000FF 55%);
 }
 
 option.dateOption:nth-child(even) {
-  background-color: #2139b1;
+  background-color: var(--dateOdd);
 }
 
 
+
 option.dateSelected {
-	background-color: #436ce3;
+	background-color: var(--prettyBlue);
 }
 
 div.changeSearch {
@@ -157,7 +181,7 @@ span.changeSearchBox {
 }
 
 input.changeSearchInput {
-	background-color: #436ce3;
+	background-color: var(--prettyBlue);
 	color: white;
 	padding: 5px;
 	font-size: 12pt;
@@ -167,7 +191,7 @@ input.changeSearchInput {
 }
 
 input.changeSearchSubmit {
-	background-color: #436ce3;
+	background-color: var(--prettyBlue);
 	color: white;
 	border-radius: 5px;
 	border: thin solid white;
@@ -265,7 +289,7 @@ div.changeAuthor {
 
 a.footerLink {
 	text-decoration: underline;
-	color: #436ce3;
+	color: var(--prettyBlue);
 }
 
 img.supportImage {
