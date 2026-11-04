@@ -1,5 +1,47 @@
 {
 	"2.11": {
+		"October 30 2026": {
+			"Fix": [
+				"Death Aura now works as intended.", 
+				"Fixed numerous projectiles not properly inheriting their spell's element.", 
+				"Fixed Rapidfire not converting its damage to HOLY/OCCULT depending on the user's affinity.", 
+				"Mana Amnesia, Rebirth, Spellslip and Manaflush potions now properly remove the stats of active toggles (e.g. Dwarven Fortitude, Giant Form) when refunding them.", 
+				"Active anti-magic restraints can no longer be stolen, and releasing one that isn't on its wearer no longer leaves a broken inventory slot."
+			]
+		}, 
+		"October 27 2026": {
+			"Fix": [
+				"Rebirth boosters now function again."
+			]
+		}, 
+		"October 24 2026": {
+			"Change - Illusion": [
+				"Swapped Illusion Flurry and Prison of Pain between intermed/master."
+			], 
+			"Change - Holy": [
+				"Zealous Guard no longer reduces power by 5. Stats are +30VIT, +5% DR."
+			], 
+			"Fix": [
+				"Fatal Strike will no longer infinitely zip over invulnerable characters.", 
+				"Shapeshift's cooldown will last 10 years instead of 20 properly.", 
+				"Black Binding can no longer fire diagonally."
+			]
+		}, 
+		"October 23 2026": {
+			"Fix": [
+				"Caves are no longer covered in sand."
+			]
+		}, 
+		"October 20 2026": {
+			"Change": [
+				"Combat potions can now be purged from your system by taking drugs. This does not apply in reverse.", 
+				"Transceiver channels can now only be viewed if the transceiver is inside the viewer's bag."
+			], 
+			"Fix": [
+				"Fixed Season's Cycle (Winter) only allowing its shield to be used once per session.", 
+				"Fixed +VIT injuries not granting HP."
+			]
+		}, 
 		"October 13 2026": {
 			"Change": [
 				"Energy Shroud is now a master."
