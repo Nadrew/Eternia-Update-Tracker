@@ -1,5 +1,13 @@
 {
 	"2.11": {
+		"November 20 2026": {
+			"Change": [
+				"Umbral Cloak AP increased from 10% to 15%."
+			], 
+			"Fix": [
+				"Umbral Cloak now has a cooldown for click TP."
+			]
+		}, 
 		"November 18 2026": {
 			"Fix": [
 				"Improved chest handling during server crashes, hopefully reducing the chance of a rollback."
