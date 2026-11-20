@@ -1,6 +1,107 @@
 {
 	"2.11": {
-		"October 30 2026": {
+		"November 18 2026": {
+			"Fix": [
+				"Improved chest handling during server crashes, hopefully reducing the chance of a rollback."
+			]
+		}, 
+		"November 14 2026": {
+			"Change - Items": [
+				"Elementalist bows adjusted. Lightsaber adjusted."
+			], 
+			"Change - Neries": [
+				"Mirrorblood Rebuke mana damage reduced to 0.75%."
+			], 
+			"Change - Lightning": [
+				"Storm AoE's range decreased from 13 to 11."
+			]
+		}, 
+		"November 11 2026": {
+			"Fix": [
+				"Fixed Wild Nature, Feral Swipes, Hunter's Eyes, Fire Swipes, Fox Fire Blast, Howl, Lupine Channel, Summon Wolves, Carnal Aspect, Beast Form, and Ursen Ward having disappeared. If you have lost these spells, please ticket to regain them."
+			]
+		}, 
+		"November 10 2026": {
+			"Change - Ookami/Melodian": [
+				"Lupine Channelling stats updated to +20% AP, +30 agi/crit, -5% DR, with its cast spell remaining."
+			], 
+			"Change - Siren": [
+				"Sirenian subtypes now give bonus pow to Ice, Ink, and Mist respective to type."
+			], 
+			"Change - Neries": [
+				"Mirrorblood Rebuke has lost damage reflect. It now gives +20 mana, and 2% mana damage, on spell damage. Costs 10 RPP."
+			], 
+			"Change - Cambion": [
+				"Ghost Rip cooldown decreased from 10s to 6s.", 
+				"Adversity is now GCDE. Its damage has been increased from 1500 to 2000."
+			], 
+			"Change - Dhampir": [
+				"Vicious Strike now returns 100% of damage rather than 80%."
+			], 
+			"Change - Unarmed": [
+				"Titan Fist's charge time reduced from 2s to 1s.", 
+				"Disarm no longer grants -20% DR, just the -20% AP."
+			], 
+			"Change - Absorption": [
+				"Conversion now cast-locks for duration. Boosted from 40% healing to 50% healing."
+			], 
+			"Change - Holy": [
+				"Deflecting Palm duration decreased from 4 seconds to 3.5 seconds."
+			], 
+			"Change - Occult": [
+				"Curse damage increased from 1 to 1.25, healcut increased from 30% to 50%."
+			], 
+			"Change - Cosmic": [
+				"Stardust Explosion damage increased from 11 to 13."
+			], 
+			"Change - Arcane": [
+				"Polymorph now does damage, and cleanses the user.", 
+				"Chromatic Shield no longer cleanses.", 
+				"Disjunction made GCDE."
+			], 
+			"Change - Sand": [
+				"Quicksand now lasts 9 seconds rather than 6.", 
+				"Sandstorm CD reduced to 25 and made GCDE."
+			], 
+			"Change - Ink": [
+				"Stygian Pool CD decreased to 27, applies poison on hit now.", 
+				"Ink Collapse silence fixed.", 
+				"Paint It Black summon health tripled.", 
+				"Deadline spell damage boosted from 1 to 1.2. Spell range increased to 15."
+			], 
+			"Change - Fire": [
+				"Overheat reworked into a homing projectile that does 6.5 spell damage, and 3 ticks of 1.5 SD burn.", 
+				"Scorch CD reduced to 35 CD, 6 initial hit damage from 4, and 4.5 tile damage from 4."
+			], 
+			"Change - Explosion": [
+				"Lionfire Barrage and Cinderflare swapped for intermed/master."
+			], 
+			"Change - Lightning": [
+				"Lightning Embodiment damage reduced from 5 to 2.5."
+			], 
+			"Change - Metal": [
+				"Shrapnel Missile now respects GCD.", 
+				"Caltrops tile damage increased from 2.5 to 3.5."
+			], 
+			"Change": [
+				"Lots and stalls can now be inherited like buildings."
+			], 
+			"Fix": [
+				"Buildings are now unrented at 0 days of rent remaining, instead of 1. (Functionally 1 more day of rent)", 
+				"Improved building inheritance handling, ensuring more cases where heirs get property upon the owner's death.", 
+				"Nerve Skitter now correctly grants 25% DR."
+			], 
+			"Removal": [
+				"You can no longer stack drugs."
+			], 
+			"Revert": [
+				"Black Binding can fire on diagonals again."
+			]
+		}, 
+		"November 5 2026": {
+			"Change": [
+				"Radiant Gleam's invulnerability duration reduced from 3 seconds to 1.5, now matching its visuals."
+			], 
 			"Fix": [
 				"Death Aura now works as intended.", 
 				"Fixed numerous projectiles not properly inheriting their spell's element.", 
